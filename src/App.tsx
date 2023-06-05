@@ -1,11 +1,11 @@
-import './App.css';
+import React from 'react';
+import './App.scss';
 
-function App(): JSX.Element {
+const App = (): JSX.Element => {
   return (
-    <>
-      <div>App</div>
-    </>
+    <div className='container'>
+    </div>
   );
-}
+};
 
 export default App;
