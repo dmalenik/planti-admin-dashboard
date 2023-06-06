@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 * {
-  padding: 0;
   box-sizing: border-box;
+  padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   transition: 0.3s ease;
@@ -33,16 +33,20 @@ html {
   font-size: 90%;
 }
 
-a {
-  text-decoration: none;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
 }
 
 li {
   list-style: none;
 }
 
-.icon {
-  font-size: $h2-font-size;
+a {
+  text-decoration: none;
 }
 
 img {
@@ -57,33 +61,7 @@ img {
 .grid {
   display: grid;
   align-items: center;
-}
-
-.btn {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px $input-color;
-  padding: 0.8rem 1rem;
-  color: $text-color;
-}
-
-.btn .icon {
-  margin-left: 0.5rem;
-}
-
-.btn:hover {
-  background: $pale-green;
-  color: $primary-color;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  padding: 1rem;
+  gap: 1.5rem;
 }
 
 .container {
@@ -97,4 +75,27 @@ body {
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 2px 2px 8px $grey-text;
+}
+
+.btn {
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px $input-color;
+  padding: 0.8rem 1rem;
+  color: $text-color;
+}
+
+.btn:hover {
+  background: $pale-green;
+  color: $primary-color;
+}
+
+.icon {
+  font-size: $h2-font-size;
+}
+
+.btn .icon {
+  margin-left: 0.5rem;
 }
