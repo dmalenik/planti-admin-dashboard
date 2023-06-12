@@ -31,9 +31,18 @@ $smallest-font-size: 0.75rem;
     cursor: pointer;
 
     img {
+      max-width: 65px;
       margin-right: 0.5rem;
+      padding: 0.2rem;
       border-radius: 2px;
+      background: $input-color;
     }
+
+    h2 {
+      font-size: $h2-font-size;
+      color: $primary-color;
+    }
+  }
 
     }
   }
