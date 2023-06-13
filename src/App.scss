@@ -78,13 +78,13 @@ img {
 }
 
 .btn {
-  border: unset;
-  outline: unset;
-  cursor: pointer;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px $input-color;
   padding: 0.8rem 1rem;
+  border: unset;
+  border-radius: 8px;
+  outline: unset;
+  box-shadow: 0 2px 4px $input-color;
   color: $text-color;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -96,6 +96,11 @@ img {
   font-size: $h2-font-size;
 }
 
-.btn .icon {
+.btn,
+.icon {
   margin-left: 0.5rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
