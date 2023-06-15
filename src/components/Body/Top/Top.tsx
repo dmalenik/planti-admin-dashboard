@@ -7,6 +7,8 @@ import { IoMdNotificationsOutline } from 'react-icons/io';
 
 import adminImage from '../../../assets/imgs/2019-04-03_IMG_0457_ret_35x45 mm.jpg';
 
+import rainyVideo from '../../../assets/vds/pexels-maksim-romashkin-12717007-3840x2160-25fps.mp4';
+
 const Top = (): JSX.Element => {
   return (
     <div className='topSection'>
@@ -24,6 +26,21 @@ const Top = (): JSX.Element => {
           <IoMdNotificationsOutline className='icon' />
           <div className='adminImage'>
             <img src={adminImage} alt='Admin Image' />
+          </div>
+        </div>
+      </div>
+      <div className='cardSection'>
+        <div className='rightCard'>
+          <h1>Create and sell extraordinary products</h1>
+          <p>
+            The world's fast growing industry today are natural made products
+          </p>
+          <div className='buttons flex'>
+            <button className='btn'>Exlore More</button>
+            <button className='btn transparent'>Top Sellers</button>
+          </div>
+          <div className='videoDiv'>
+            <video src={rainyVideo} autoPlay loop muted></video>
           </div>
         </div>
       </div>
