@@ -85,4 +85,84 @@ $smallest-font-size: 0.75rem;
       }
     }
   }
+
+  .cardSection {
+    gap: 1rem;
+    margin-top: 3rem;
+
+    .rightCard {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      flex-basis: 70%;
+      position: relative;
+      height: 200px;
+      padding: 2rem;
+      border-radius: 1rem;
+      margin: auto;
+      overflow: hidden;
+
+      h1,
+      p {
+        position: relative;
+      }
+
+      h1,
+      p,
+      .btn {
+        z-index: 100;
+      }
+
+      h1 {
+        padding: 1rem 1rem 0;
+        font-size: $h1-font-size;
+        font-weight: 800;
+        color: $white-color;
+      }
+
+      p {
+        padding: 1rem;
+        font-weight: 500;
+        color: $pale-green;
+      }
+
+      .buttons {
+        gap: 1rem;
+
+        .btn {
+          padding: 0.8rem 1.5rem;
+          color: $primary-color;
+          box-shadow: none;
+          border: 2px solid transparent;
+        }
+
+        .transparent {
+          border: 2px solid $pale-green;
+          background: none;
+          color: $pale-green;
+
+          &:hover {
+            color: $primary-color;
+            background: $pale-green;
+          }
+        }
+      }
+
+      .videoDiv {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        video {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
 }
