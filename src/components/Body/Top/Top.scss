@@ -1,0 +1,88 @@
+/* Colors and Styles (Default) */
+$primary-color: hsl(94, 59%, 35%);
+$hover-color: #bdf094;
+$pale-green: hsl(96, 75%, 89%);
+$white-color: hsl(0, 0%, 100%);
+$black-color: hsl(0, 0%, 10%);
+$text-color: hsl(240, 1%, 48%);
+$bg-color: hsl(220, 10%, 94%);
+$grey-text: rgb(190, 190, 190);
+$input-color: hsl(330, 12%, 97%);
+
+/* Fonts and Typography */
+$biggest-font-size: 2.5rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smallest-font-size: 0.75rem;
+
+.topSection {
+  .headerSection {
+    justify-content: space-between;
+
+    .title {
+      h1 {
+        font-size: $h1-font-size;
+        font-weight: 700;
+        color: $black-color;
+      }
+
+      p {
+        font-size: $normal-font-size;
+        font-weight: 500;
+        color: $text-color;
+      }
+    }
+
+    .searchBar {
+      gap: 1rem;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      background: $white-color;
+      box-shadow: 0 2px 4px $input-color;
+
+      input {
+        border: none;
+        outline: none;
+        background: none;
+      }
+
+      .icon {
+        color: $text-color;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .adminDiv {
+      gap: 1rem;
+
+      .icon {
+        padding: 5px;
+        border-radius: 5px;
+        font-size: $biggest-font-size;
+        color: $text-color;
+        background: $white-color;
+        box-shadow: 0 2px 4px $input-color;
+      }
+
+      .adminImage {
+        width: 2.5rem;
+        border: 3px solid $white-color;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px $input-color;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
