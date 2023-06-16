@@ -34,11 +34,11 @@ html {
 }
 
 body {
+  padding: 1rem;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  margin: auto;
 }
 
 li {
@@ -65,13 +65,13 @@ img {
 }
 
 .container {
+  width: 95vw;
+  height: 95vh;
+  border-radius: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 95vw;
-  height: 95vh;
-  border-radius: 1rem;
   background: $bg-color;
   box-shadow: 2px 2px 8px $grey-text;
   overflow: hidden;

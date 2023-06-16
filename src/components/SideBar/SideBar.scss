@@ -59,14 +59,14 @@ $smallest-font-size: 0.75rem;
         position: relative;
 
         &::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          bottom: 0;
           width: 5px;
           height: 0;
           border-top-right-radius: 10px;
           border-bottom-right-radius: 10px;
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
           background: $primary-color;
         }
 
@@ -93,51 +93,51 @@ $smallest-font-size: 0.75rem;
   }
 
   .sideBarCard {
-    position: relative;
     width: 100%;
     padding: 1rem;
+    position: relative;
     text-align: center;
 
     .icon {
+      border: 10px solid $white-color;
+      border-radius: 50%;
       position: absolute;
       top: -8px;
       right: 50%;
       z-index: 100;
-      border: 10px solid $white-color;
-      border-radius: 50%;
       font-size: 3rem;
       background: $hover-color;
       transform: translate(50%);
     }
 
     .cardContent {
-      position: relative;
       padding: 1rem;
       border-radius: 10px;
+      position: relative;
       background: $hover-color;
       overflow: hidden;
 
       .circle1,
       .circle2 {
-        position: absolute;
         border-radius: 50%;
+        position: absolute;
         background: $pale-green;
         opacity: 0.7;
       }
 
       .circle1 {
-        top: -50px;
-        left: -50px;
         width: 100px;
         height: 100px;
+        top: -50px;
+        left: -50px;
       }
 
       .circle2 {
+        width: 150px;
+        height: 150px;
         bottom: -80px;
         right: -70px;
         z-index: 1;
-        width: 150px;
-        height: 150px;
       }
 
       h3 {
