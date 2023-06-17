@@ -88,9 +88,8 @@ $smallest-font-size: 0.75rem;
 
   .cardSection {
     margin-top: 3rem;
-    gap: 1rem;
 
-    .rightCard {
+    .leftCard {
       height: 200px;
       padding: 2rem;
       border-radius: 1rem;
@@ -101,11 +100,6 @@ $smallest-font-size: 0.75rem;
       flex-basis: 70%;
       position: relative;
       overflow: hidden;
-
-      h1,
-      p {
-        position: relative;
-      }
 
       h1,
       p,
@@ -165,7 +159,75 @@ $smallest-font-size: 0.75rem;
       }
     }
 
-    .leftCard {
+    .rightCard {
+      flex-basis: 30%;
+
+      .main {
+        height: 200px;
+        padding: 1rem;
+        border-radius: 1rem;
+        justify-content: space-between;
+        position: relative;
+        gap: 1rem;
+
+        &::before {
+          content: '';
+          width: 75%;
+          height: 100%;
+          border-radius: 1rem;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          background: $pale-green;
+        }
+
+        .textDiv {
+          z-index: 100;
+          // margin-right: 1rem;
+
+          h1 {
+            padding-bottom: 1rem;
+            font-size: $h1-font-size;
+            color: $black-color;
+          }
+
+          .flex {
+            font-weight: 500;
+            gap: 1.5rem;
+            color: $black-color;
+
+            small {
+              padding: 0.5rem 0;
+              display: block;
+              font-size: $normal-font-size;
+              font-weight: 500;
+              color: $primary-color;
+            }
+          }
+
+          .link {
+            margin-top: 2rem;
+            cursor: pointer;
+
+            &:hover {
+              color: $primary-color;
+
+              .icon {
+                transform: translateX(10px);
+                transition: 0.3s ease;
+              }
+            }
+          }
+        }
+
+        .imageDiv {
+          transform: translateY(-1px);
+
+          img {
+            width: 175px;
+          }
+        }
+      }
     }
   }
 }

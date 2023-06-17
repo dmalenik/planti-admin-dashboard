@@ -7,9 +7,9 @@ import { IoMdNotificationsOutline } from 'react-icons/io';
 import { BsArrowRightShort } from 'react-icons/bs';
 
 import adminImage from '../../../assets/imgs/2019-04-03_IMG_0457_ret_35x45 mm.jpg';
-import someImage from '../../../assets/imgs/10995888_911070795590725_8814513449878722782_n.jpg';
+import leavesImage from '../../../assets/imgs/pexels-felipe-alves-10616343.jpg';
 
-import rainyVideo from '../../../assets/vds/pexels-maksim-romashkin-12717007-3840x2160-25fps.mp4';
+import rainyVideo from '../../../assets/videos/pexels-maksim-romashkin-12717007-3840x2160-25fps.mp4';
 
 const Top = (): JSX.Element => {
   return (
@@ -31,8 +31,8 @@ const Top = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className='cardSection'>
-        <div className='rightCard'>
+      <div className='cardSection flex'>
+        <div className='leftCard flex'>
           <h1>Create and sell extraordinary products</h1>
           <p>
             The world's fast growing industry today are natural made products
@@ -45,7 +45,7 @@ const Top = (): JSX.Element => {
             <video src={rainyVideo} autoPlay loop muted></video>
           </div>
         </div>
-        <div className='leftCard flex'>
+        <div className='rightCard flex'>
           <div className='main flex'>
             <div className='textDiv'>
               <h1>My Stats</h1>
@@ -63,7 +63,7 @@ const Top = (): JSX.Element => {
               </span>
             </div>
             <div className='imageDiv'>
-              <img src={someImage} alt='Image Name' />
+              <img src={leavesImage} alt='Image Name' />
             </div>
             {/* <div className='sideBarCard'>
               <BsQuestionCircle className='icon' />
