@@ -7,7 +7,7 @@ import { IoMdNotificationsOutline } from 'react-icons/io';
 import { BsArrowRightShort } from 'react-icons/bs';
 
 import adminImage from '../../../assets/imgs/2019-04-03_IMG_0457_ret_35x45 mm.jpg';
-import leavesImage from '../../../assets/imgs/pexels-felipe-alves-10616343.jpg';
+import flowerImage from '../../../assets/imgs/pexels-gursharndeep-singh-1261016.jpg';
 
 import rainyVideo from '../../../assets/videos/pexels-maksim-romashkin-12717007-3840x2160-25fps.mp4';
 
@@ -63,7 +63,7 @@ const Top = (): JSX.Element => {
               </span>
             </div>
             <div className='imageDiv'>
-              <img src={leavesImage} alt='Image Name' />
+              <img src={flowerImage} alt='Image Name' />
             </div>
             {/* <div className='sideBarCard'>
               <BsQuestionCircle className='icon' />
