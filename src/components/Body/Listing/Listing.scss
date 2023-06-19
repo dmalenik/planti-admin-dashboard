@@ -1,0 +1,91 @@
+/* Colors and Styles (Default) */
+$primary-color: hsl(94, 59%, 35%);
+$hover-color: #bdf094;
+$pale-green: hsl(96, 75%, 89%);
+$white-color: hsl(0, 0%, 100%);
+$black-color: hsl(0, 0%, 10%);
+$text-color: hsl(240, 1%, 48%);
+$bg-color: hsl(220, 10%, 94%);
+$grey-text: rgb(190, 190, 190);
+$input-color: hsl(330, 12%, 97%);
+/* new */
+$item-card-color: hsl(120, 5%, 88%);
+$item-card-hover: hsl(120, 27%, 87%);
+
+/* Fonts and Typography */
+$biggest-font-size: 2.5rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smallest-font-size: 0.75rem;
+
+.listingSection {
+  flex-basis: 70%;
+
+  .heading {
+    width: 100%;
+    justify-content: space-between;
+
+    h1 {
+      font-weight: 700;
+      font-size: $h2-font-size;
+      color: $black-color;
+    }
+
+    .btn {
+      border: 1px solid transparent;
+      font-weight: 500;
+
+      &:hover {
+        border: 1px solid $primary-color;
+      }
+    }
+  }
+
+  .secContainer {
+    width: 100%;
+    margin: 1rem 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .singleItem {
+      width: 150px;
+      height: 200px;
+      padding: 1rem;
+      border-radius: 10px;
+      flex-direction: column;
+      gap: 0.5rem 0;
+      position: relative;
+      background-color: $item-card-color;
+
+      &:hover {
+        background: $item-card-hover;
+        box-shadow: 0 2px 2px $input-color;
+      }
+
+      .icon {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        color: $primary-color;
+        z-index: 12;
+      }
+
+      img {
+        max-width: 80%;
+        height: 80%;
+        object-fit: cover;
+      }
+
+      h3 {
+        width: 80%;
+        font-size: $h3-font-size;
+        text-align: center;
+        color: $black-color;
+      }
+    }
+  }
+}
