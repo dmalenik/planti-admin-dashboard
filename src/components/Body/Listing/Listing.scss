@@ -88,4 +88,62 @@ $smallest-font-size: 0.75rem;
       }
     }
   }
+
+  .sellers {
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+
+    .topSellers {
+      .heading {
+        padding: 1rem 0;
+
+        .btn {
+          padding: 0.5rem 1rem;
+        }
+      }
+
+      .card {
+        padding: 1rem;
+        border-radius: 1rem;
+        gap: 1rem;
+        background: $white-color;
+        box-shadow: 0 2px 4px $input-color;
+
+        .users {
+          padding-right: 1rem;
+          border-right: 2px solid $grey-text;
+
+          img {
+            width: 30px;
+            height: 30px;
+            border: 2px solid $input-color;
+            border-radius: 50%;
+            object-fit: cover;
+
+            &:hover {
+              transition: 0.5s ease;
+              transform: translateY(-10px);
+            }
+          }
+        }
+
+        .cardText {
+          span {
+            font-weight: 500;
+            color: $black-color;
+          }
+
+          small {
+            font-weight: 400;
+
+            .date {
+              margin-left: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
