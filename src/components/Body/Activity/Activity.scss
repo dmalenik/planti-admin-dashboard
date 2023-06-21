@@ -1,0 +1,87 @@
+/* Colors and Styles (Default) */
+$primary-color: hsl(94, 59%, 35%);
+$hover-color: #bdf094;
+$pale-green: hsl(96, 75%, 89%);
+$white-color: hsl(0, 0%, 100%);
+$black-color: hsl(0, 0%, 10%);
+$text-color: hsl(240, 1%, 48%);
+$bg-color: hsl(220, 10%, 94%);
+$grey-text: rgb(190, 190, 190);
+$input-color: hsl(330, 12%, 97%);
+/* new */
+$item-card-color: hsl(120, 5%, 88%);
+$item-card-hover: hsl(120, 27%, 87%);
+
+/* Fonts and Typography */
+$biggest-font-size: 2.5rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smallest-font-size: 0.75rem;
+
+.activitySection {
+  flex-basis: 30%;
+
+  .heading {
+    width: 100%;
+    justify-content: space-between;
+
+    h1 {
+      font-size: $h2-font-size;
+      font-weight: 700;
+      color: $black-color;
+    }
+
+    .btn {
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid $primary-color;
+      }
+    }
+  }
+
+  .secContainer {
+    margin-top: 1rem;
+
+    .singleCustomer {
+      align-items: flex-start;
+      justify-content: space-between;
+
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 1rem;
+        object-fit: cover;
+        box-shadow: 0 2px 4px $item-card-color;
+      }
+
+      .customerDetails {
+        flex: 1;
+
+        .name {
+          font-size: $h3-font-size;
+          font-weight: 600;
+          color: $black-color;
+          display: block;
+        }
+
+        small {
+          font-size: $small-font-size;
+          font-weight: 500;
+          color: $text-color;
+        }
+      }
+
+      .duration {
+        align-self: center;
+        font-size: $smallest-font-size;
+        font-weight: 500;
+        color: $text-color;
+      }
+    }
+  }
+}

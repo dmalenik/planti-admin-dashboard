@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  transition: 0.3s ease;
-}
-
 /* Colors and Styles (Default) */
 $primary-color: hsl(94, 59%, 35%);
 $hover-color: #bdf094;
@@ -27,6 +19,14 @@ $h3-font-size: 1rem;
 $normal-font-size: 0.938rem;
 $small-font-size: 0.813rem;
 $smallest-font-size: 0.75rem;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.3s ease;
+}
 
 /* Default Styles */
 html {
