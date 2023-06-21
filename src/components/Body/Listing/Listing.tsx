@@ -59,6 +59,27 @@ const Listing = (): JSX.Element => {
             </div>
           </div>
         </div>
+        <div className='featuredSellers'>
+          <div className='heading flex'>
+            <h3>Featured Sellers</h3>
+            <button className='btn flex'>
+              See All <BsArrowRightShort className='icon' />
+            </button>
+          </div>
+          <div className='card flex'>
+            <div className='users'>
+              <img src={plantsAndWaterfallImg} alt='Image Name' />
+              <img src={flowersAndMountainsImg} alt='Image Name' />
+              <img src={someImg2} alt='Image Name' />
+            </div>
+            <div className='cardText'>
+              <span>28.456 Plants sold</span> <br />
+              <small>
+                26 Sellers <span className='date'>31 Days</span>
+              </small>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

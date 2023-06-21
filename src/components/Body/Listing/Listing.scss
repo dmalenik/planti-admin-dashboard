@@ -95,7 +95,8 @@ $smallest-font-size: 0.75rem;
     gap: 1rem;
     align-items: flex-start;
 
-    .topSellers {
+    .topSellers,
+    .featuredSellers {
       .heading {
         padding: 1rem 0;
 
@@ -105,7 +106,7 @@ $smallest-font-size: 0.75rem;
       }
 
       .card {
-        padding: 1rem;
+        padding: 1rem 1.5rem;
         border-radius: 1rem;
         gap: 1rem;
         background: $white-color;
