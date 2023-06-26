@@ -4,7 +4,7 @@ import './Top.scss';
 import { BiSearchAlt } from 'react-icons/bi';
 import { TbMessageCircle } from 'react-icons/tb';
 import { IoMdNotificationsOutline } from 'react-icons/io';
-import { BsArrowRightShort } from 'react-icons/bs';
+import { BsArrowRightShort, BsQuestionCircle } from 'react-icons/bs';
 
 import adminImage from '../../../assets/imgs/2019-04-03_IMG_0457_ret_35x45 mm.jpg';
 import flowerImage from '../../../assets/imgs/pexels-gursharndeep-singh-1261016.jpg';
@@ -65,19 +65,18 @@ const Top = (): JSX.Element => {
             <div className='imageDiv'>
               <img src={flowerImage} alt='Image Name' />
             </div>
-            {/* <div className='sideBarCard'>
-              <BsQuestionCircle className='icon' />
-              <div className='cardContent'>
-                <div className='circle1'></div>
-                <div className='circle2'></div>
-                <h3>Help Center</h3>
-                <p>
-                  Having troubles in Planti, please contact us for more
-                  questions
-                </p>
-                <button className='btn'>Go to Help Center</button>
-              </div>
-            </div> */}
+          </div>
+          <div className='sideBarCard'>
+            <BsQuestionCircle className='icon' />
+            <div className='cardContent'>
+              <div className='circle1'></div>
+              <div className='circle2'></div>
+              <h3>Help Center</h3>
+              <p>
+                Having troubles in Planti, please contact us for more questions
+              </p>
+              <button className='btn'>Go to Help Center</button>
+            </div>
           </div>
         </div>
       </div>
