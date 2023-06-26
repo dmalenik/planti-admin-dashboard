@@ -85,3 +85,15 @@ $smallest-font-size: 0.75rem;
     }
   }
 }
+
+@media screen and (max-width: 990px) {
+  .activitySection {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .activitySection {
+    width: 100%;
+  }
+}

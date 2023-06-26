@@ -148,3 +148,111 @@ $smallest-font-size: 0.75rem;
     }
   }
 }
+
+@media screen and (max-width: 990px) {
+  .listingSection {
+    flex-basis: 50%;
+
+    .sellers {
+      .topSellers,
+      .featuredSellers {
+        .card {
+          padding: 1rem;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .listingSection {
+    width: 100%;
+
+    .secContainer {
+      flex-wrap: nowrap;
+
+      .singleItem {
+        width: 180px;
+      }
+    }
+
+    .sellers {
+      .topSellers,
+      .featuredSellers {
+        width: 50%;
+
+        .card {
+          flex-direction: row;
+
+          .users {
+            padding-right: 0;
+          }
+
+          .cardText {
+            small {
+              .date {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .listingSection {
+    .secContainer {
+      flex-direction: column;
+    }
+
+    .sellers {
+      .topSellers,
+      .featuredSellers {
+        .card {
+          flex-direction: column;
+
+          .cardText {
+            small {
+              .date {
+                margin-left: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .listingSection {
+    .sellers {
+      flex-direction: column;
+      align-items: center;
+
+      .topSellers,
+      .featuredSellers {
+        width: 100%;
+
+        .card {
+          flex-direction: row;
+          justify-content: space-between;
+
+          .users,
+          .cardText {
+            width: 50%;
+
+            small {
+              .date {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -10,3 +10,11 @@
     align-items: flex-start;
   }
 }
+
+@media screen and (max-width: 918px) {
+  .mainContent {
+    .bottom {
+      flex-direction: column;
+    }
+  }
+}
