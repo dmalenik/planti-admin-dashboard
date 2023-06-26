@@ -22,7 +22,7 @@ $small-font-size: 0.813rem;
 $smallest-font-size: 0.75rem;
 
 .listingSection {
-  flex-basis: 70%;
+  flex-basis: 75%;
 
   .heading {
     width: 100%;
@@ -93,13 +93,11 @@ $smallest-font-size: 0.75rem;
     width: 100%;
     justify-content: space-between;
     gap: 1rem;
-    align-items: flex-start;
+    align-items: center;
 
     .topSellers,
     .featuredSellers {
       .heading {
-        padding: 1rem 0;
-
         .btn {
           padding: 0.5rem 1rem;
         }
@@ -108,6 +106,7 @@ $smallest-font-size: 0.75rem;
       .card {
         padding: 1rem 1.5rem;
         border-radius: 1rem;
+        margin-top: 1.5rem;
         gap: 1rem;
         background: $white-color;
         box-shadow: 0 2px 4px $input-color;
