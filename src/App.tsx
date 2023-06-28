@@ -1,7 +1,5 @@
-import React from 'react';
+import { Body, SideBar } from './templates';
 import './App.scss';
-import Body from './components/Body/Body';
-import SideBar from './components/SideBar/SideBar';
 
 const App = (): JSX.Element => {
   return (
