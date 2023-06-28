@@ -19,6 +19,12 @@ const SideBar = (): JSX.Element => (
       menuListItems={settingsMenuData.listItems}
       menuStyles={settingsMenuData.styles}
     />
+    <HelpCenter
+      icon={helpCenterData.icon}
+      title={helpCenterData.title}
+      description={helpCenterData.description}
+      btnText={helpCenterData.btnText}
+    />
   </div>
 );
 
