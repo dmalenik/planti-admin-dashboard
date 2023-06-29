@@ -1,10 +1,10 @@
-import { type MenuData, type MenuListItems } from '../types/';
+import type { MenuData, MenuListItems } from '../types/';
 import { AiOutlinePieChart } from 'react-icons/ai';
 import { BiTrendingUp } from 'react-icons/bi';
 import { MdOutlinePermContactCalendar } from 'react-icons/md';
 import { BsCreditCard2Front } from 'react-icons/bs';
 
-const settingsMenuData: MenuData<MenuListItems> = {
+const settingsMenu: MenuData<MenuListItems> = {
   title: 'QUICK MENU',
   listItems: [
     { icon: <AiOutlinePieChart className='icon' />, text: 'Charts' },
@@ -18,4 +18,4 @@ const settingsMenuData: MenuData<MenuListItems> = {
   styles: 'menuDiv',
 };
 
-export default settingsMenuData;
+export default settingsMenu;

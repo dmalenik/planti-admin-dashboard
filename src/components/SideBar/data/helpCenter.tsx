@@ -1,7 +1,7 @@
-import { type HelpCenterData } from '../types/';
+import type { HelpCenterData } from '../types/';
 import { BsQuestionCircle } from 'react-icons/bs';
 
-const helpCenterData: HelpCenterData = {
+const helpCenter: HelpCenterData = {
   title: 'Help Center',
   description:
     'Having troubles in Planti, please contact us for more questions',
@@ -9,4 +9,4 @@ const helpCenterData: HelpCenterData = {
   icon: <BsQuestionCircle className='icon' />,
 };
 
-export default helpCenterData;
+export default helpCenter;

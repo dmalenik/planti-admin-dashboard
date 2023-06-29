@@ -17,4 +17,4 @@ interface MenuProps {
   menuStyles: string;
 }
 
-export { type MenuData, type MenuListItems, type MenuProps };
+export type { MenuData, MenuListItems, MenuProps };

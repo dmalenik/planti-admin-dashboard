@@ -1,4 +1,4 @@
-import { type MenuProps } from '../types';
+import type { MenuProps } from '../types';
 
 const Menu = (props: MenuProps): JSX.Element => {
   const listItems: JSX.Element[] = props.menuListItems.map(
