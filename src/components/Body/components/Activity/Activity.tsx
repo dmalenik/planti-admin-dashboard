@@ -2,9 +2,9 @@ import './Activity.scss';
 
 import { BsArrowRightShort } from 'react-icons/bs';
 
-import sunAndPlantsImg from '../../../assets/imgs/pexels-arnie-watkins-3068249.jpg';
-import someImg1 from '../../../assets/imgs/pexels-daniel-maldonado-4634361.jpg';
-import someImg2 from '../../../assets/imgs/pexels-lina-kivaka-1661572.jpg';
+import sunAndPlantsImg from '../../../../assets/imgs/pexels-arnie-watkins-3068249.jpg';
+import someImg1 from '../../../../assets/imgs/pexels-daniel-maldonado-4634361.jpg';
+import someImg2 from '../../../../assets/imgs/pexels-lina-kivaka-1661572.jpg';
 
 const Activity = (): JSX.Element => {
   return (

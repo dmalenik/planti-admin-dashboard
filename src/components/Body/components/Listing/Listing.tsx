@@ -3,12 +3,12 @@ import './Listing.scss';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import { BsArrowRightShort } from 'react-icons/bs';
 
-import leavesImg from '../../../assets/imgs/pexels-felipe-alves-10616343.jpg';
-import palacePlantsImg from '../../../assets/imgs/pexels-maria-orlova-4946907.jpg';
-import mointainsViewImg from '../../../assets/imgs/pexels-tim-gouw-5677269.jpg';
-import plantsAndWaterfallImg from '../../../assets/imgs/pexels-antonio-friedemann-3890544.jpg';
-import flowersAndMountainsImg from '../../../assets/imgs/pexels-dominik-simecek-4807058.jpg';
-import someImg2 from '../../../assets/imgs/pexels-madison-inouye-1054024.jpg';
+import leavesImg from '../../../../assets/imgs/pexels-felipe-alves-10616343.jpg';
+import palacePlantsImg from '../../../../assets/imgs/pexels-maria-orlova-4946907.jpg';
+import mointainsViewImg from '../../../../assets/imgs/pexels-tim-gouw-5677269.jpg';
+import plantsAndWaterfallImg from '../../../../assets/imgs/pexels-antonio-friedemann-3890544.jpg';
+import flowersAndMountainsImg from '../../../../assets/imgs/pexels-dominik-simecek-4807058.jpg';
+import someImg2 from '../../../../assets/imgs/pexels-madison-inouye-1054024.jpg';
 
 const Listing = (): JSX.Element => {
   return (
