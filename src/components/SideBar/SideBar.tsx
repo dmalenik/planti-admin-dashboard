@@ -1,6 +1,6 @@
-import logo from '../../assets/imgs/pexels-alan-cabello-1173217.jpg';
+import logo from './assets/pexels-alan-cabello-1173217.jpg';
 import { Menu, HelpCenter } from './components/';
-import { quickMenuData, settingsMenuData, helpCenterData } from './data';
+import { quickMenu, settingsMenu, helpCenter } from './data';
 import './SideBar.scss';
 
 const SideBar = (): JSX.Element => (
@@ -10,20 +10,20 @@ const SideBar = (): JSX.Element => (
       <h2>Planti.</h2>
     </div>
     <Menu
-      title={quickMenuData.title}
-      menuListItems={quickMenuData.listItems}
-      menuStyles={quickMenuData.styles}
+      title={quickMenu.title}
+      menuListItems={quickMenu.listItems}
+      menuStyles={quickMenu.styles}
     />
     <Menu
-      title={settingsMenuData.title}
-      menuListItems={settingsMenuData.listItems}
-      menuStyles={settingsMenuData.styles}
+      title={settingsMenu.title}
+      menuListItems={settingsMenu.listItems}
+      menuStyles={settingsMenu.styles}
     />
     <HelpCenter
-      icon={helpCenterData.icon}
-      title={helpCenterData.title}
-      description={helpCenterData.description}
-      btnText={helpCenterData.btnText}
+      icon={helpCenter.icon}
+      title={helpCenter.title}
+      description={helpCenter.description}
+      btnText={helpCenter.btnText}
     />
   </div>
 );
