@@ -1,8 +1,7 @@
-import React from 'react';
-import './Body.scss';
 import Top from './Top/Top';
 import Listing from './Listing/Listing';
 import Activity from './Activity/Activity';
+import './Body.scss';
 
 const Body = () => {
   return (

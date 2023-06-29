@@ -1,4 +1,3 @@
-import React from 'react';
 import './Listing.scss';
 
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Activity.scss';
 
 import { BsArrowRightShort } from 'react-icons/bs';
