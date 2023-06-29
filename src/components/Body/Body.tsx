@@ -1,6 +1,4 @@
-import Top from './Top/Top';
-import Listing from './Listing/Listing';
-import Activity from './Activity/Activity';
+import { Top, Listing, Activity } from './components';
 import './Body.scss';
 
 const Body = () => {
