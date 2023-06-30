@@ -1,8 +1,11 @@
 import type { AdminBarProps } from '../types';
+import getUID from '../../../../../utils/getUID';
 import { BiSearchAlt } from 'react-icons/bi';
 import { TbMessageCircle } from 'react-icons/tb';
 import { IoMdNotificationsOutline } from 'react-icons/io';
 import adminImage from '../assets/2019-04-03_IMG_0457_ret_35x45 mm.jpg';
+
+const UIDArr: string[] = getUID(2);
 
 const adminBar: AdminBarProps = {
   title: {
@@ -14,10 +17,10 @@ const adminBar: AdminBarProps = {
   },
   adminDiv: {
     icons: [
-      <TbMessageCircle className='icon' />,
-      <IoMdNotificationsOutline className='icon' />,
+      <TbMessageCircle className='icon' key={UIDArr[0]} />,
+      <IoMdNotificationsOutline className='icon' key={UIDArr[1]} />,
     ],
-    imgSrc: adminImage,
+    img: { src: adminImage, alt: 'Admin Image' },
   },
 };
 
