@@ -1,20 +1,14 @@
 import { ReactElement } from 'react';
-
-interface MenuData<T> {
-  title: string;
-  listItems: T[];
-  styles: string;
-}
-
-interface MenuListItems {
-  icon: ReactElement;
-  text: string;
-}
+import { IconType } from 'react-icons';
 
 interface MenuProps {
+  type: string;
   title: string;
-  menuListItems: { icon: ReactElement; text: string }[];
-  menuStyles: string;
+  listItems: {
+    id: string;
+    icon: ReactElement<IconType>;
+    description: string;
+  }[];
 }
 
-export type { MenuData, MenuListItems, MenuProps };
+export type { MenuProps };
