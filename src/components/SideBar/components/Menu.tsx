@@ -1,21 +1,21 @@
 import type { MenuProps } from '../types';
 
 const Menu = (props: MenuProps): JSX.Element => {
-  const listItems: JSX.Element[] = props.menuListItems.map(
-    (menuListItem): JSX.Element => (
-      <li className='listItem'>
+  const menuListItems: JSX.Element[] = props.listItems.map(
+    ({ id, icon, description }): JSX.Element => (
+      <li key={id} className='listItem'>
         <a href='' className='menuLink flex'>
-          {menuListItem.icon}
-          <span className='smallText'>{menuListItem.text}</span>
+          {icon}
+          <span className='smallText'>{description}</span>
         </a>
       </li>
     )
   );
 
   return (
-    <div className={props.menuStyles}>
+    <div className={props.type}>
       <h3 className='divTitle'>{props.title}</h3>
-      <ul className='menuLists grid'>{listItems}</ul>
+      <ul className='menuLists grid'>{menuListItems}</ul>
     </div>
   );
 };

@@ -7,22 +7,24 @@ const RightCard = (props: RightCardProps): JSX.Element => {
     <div className='rightCard flex'>
       <div className='main flex'>
         <div className='textDiv'>
-          <h1>{props.textDiv.heading}</h1>
+          <h1>{props.text.heading}</h1>
           <div className='flex'>
-            {props.textDiv.stats.map((stat): JSX.Element => {
-              return (
-                <span>
-                  {stat.date} <br /> <small>{stat.quantity}</small>
-                </span>
-              );
-            })}
+            {props.text.stats.map(
+              ({ id, type, date, quantity }): JSX.Element => {
+                return (
+                  <span key={id}>
+                    {date} <br /> <small>{`${quantity} ${type}`}</small>
+                  </span>
+                );
+              }
+            )}
           </div>
           <span className='flex link'>
-            {props.textDiv.link.text} {props.textDiv.link.icon}
+            {props.text.link.action} {props.text.link.icon}
           </span>
         </div>
         <div className='imageDiv'>
-          <img src={props.imageDiv.imgSrc} alt='Image Name' />
+          <img src={props.image.src} alt='Image Name' />
         </div>
       </div>
       <HelpCenter
