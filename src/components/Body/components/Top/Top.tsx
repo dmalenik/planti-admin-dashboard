@@ -14,10 +14,10 @@ const Top = (): JSX.Element => {
         <LeftCard
           title={leftCard.title}
           description={leftCard.description}
-          buttons={leftCard.buttons}
-          videoSrc={leftCard.videoSrc}
+          actions={leftCard.actions}
+          video={leftCard.video}
         />
-        <RightCard textDiv={rightCard.textDiv} imageDiv={rightCard.imageDiv} />
+        <RightCard text={rightCard.text} image={rightCard.image} />
       </div>
     </div>
   );

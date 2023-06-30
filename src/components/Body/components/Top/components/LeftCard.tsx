@@ -6,11 +6,11 @@ const LeftCard = (props: LeftCardProps): JSX.Element => {
       <h1>{props.title}</h1>
       <p>{props.description}</p>
       <div className='buttons flex'>
-        <button className='btn'>{props.buttons.btn1}</button>
-        <button className='btn transparent'>{props.buttons.btn2}</button>
+        <button className='btn'>{props.actions.action1}</button>
+        <button className='btn transparent'>{props.actions.action2}</button>
       </div>
       <div className='videoDiv'>
-        <video src={props.videoSrc} autoPlay loop muted></video>
+        <video src={props.video.src} autoPlay loop muted></video>
       </div>
     </div>
   );

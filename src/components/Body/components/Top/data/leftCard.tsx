@@ -5,11 +5,11 @@ const leftCard: LeftCardProps = {
   title: 'Create and sell extraordinary products',
   description:
     "The world's fast growing industry today are natural made products",
-  buttons: {
-    btn1: 'Exlore More',
-    btn2: 'Top Sellers',
+  actions: {
+    action1: 'Exlore More',
+    action2: 'Top Sellers',
   },
-  videoSrc: rainyVideo,
+  video: { src: rainyVideo },
 };
 
 export default leftCard;

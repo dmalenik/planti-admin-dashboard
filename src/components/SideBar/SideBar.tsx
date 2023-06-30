@@ -10,14 +10,14 @@ const SideBar = (): JSX.Element => (
       <h2>Planti.</h2>
     </div>
     <Menu
+      type={quickMenu.type}
       title={quickMenu.title}
-      menuListItems={quickMenu.listItems}
-      menuStyles={quickMenu.styles}
+      listItems={quickMenu.listItems}
     />
     <Menu
+      type={settingsMenu.type}
       title={settingsMenu.title}
-      menuListItems={settingsMenu.listItems}
-      menuStyles={settingsMenu.styles}
+      listItems={settingsMenu.listItems}
     />
     <HelpCenter
       icon={helpCenter.icon}

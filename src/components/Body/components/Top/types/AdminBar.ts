@@ -11,7 +11,10 @@ interface AdminBarProps {
   };
   adminDiv: {
     icons: ReactElement<IconType>[];
-    imgSrc: string;
+    img: {
+      src: string;
+      alt: string;
+    };
   };
 }
 

@@ -14,7 +14,7 @@ const AdminBar = (props: AdminBarProps): JSX.Element => {
       <div className='adminDiv flex'>
         {props.adminDiv.icons.map((icon) => icon)}
         <div className='adminImage'>
-          <img src={props.adminDiv.imgSrc} alt='' />
+          <img src={props.adminDiv.img.src} alt={props.adminDiv.img.alt} />
         </div>
       </div>
     </div>

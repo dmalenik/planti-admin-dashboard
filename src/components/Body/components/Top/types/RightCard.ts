@@ -2,19 +2,21 @@ import type { IconType } from 'react-icons';
 import { ReactElement } from 'react';
 
 interface RightCardProps {
-  textDiv: {
+  text: {
     heading: string;
     stats: {
+      id: string;
+      type: string;
       date: string;
-      quantity: string;
+      quantity: number;
     }[];
     link: {
-      text: string;
+      action: string;
       icon: ReactElement<IconType>;
     };
   };
-  imageDiv: {
-    imgSrc: string;
+  image: {
+    src: string;
   };
 }
 
