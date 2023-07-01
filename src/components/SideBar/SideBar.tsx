@@ -1,5 +1,5 @@
 import logo from './assets/pexels-alan-cabello-1173217.jpg';
-import { Menu, HelpCenter } from './components/';
+import { Menu, HelpCenter } from '../../shared/components';
 import { quickMenu, settingsMenu, helpCenter } from './data';
 import './SideBar.scss';
 
