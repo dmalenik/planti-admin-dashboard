@@ -17,6 +17,7 @@ interface RightCardProps {
   };
   image: {
     src: string;
+    alt: string;
   };
 }
 

@@ -29,6 +29,7 @@ const rightCard: RightCardProps = {
   },
   image: {
     src: flowerImage,
+    alt: 'Flowers Image',
   },
 };
 
