@@ -1,7 +1,6 @@
-import logo from './assets/pexels-alan-cabello-1173217.jpg';
-import { Menu, HelpCenter } from '../../shared/components';
-import { quickMenu, settingsMenu } from './data';
-import { helpCenter } from '../../shared/data';
+import logo from '../../shared/assets/images/pexels-alan-cabello-1173217.jpg';
+import { Menu, HelpCenter } from '../../components';
+import { quickMenu, settingsMenu, helpCenter } from '../../shared/data';
 import './SideBar.scss';
 
 const SideBar = (): JSX.Element => (
