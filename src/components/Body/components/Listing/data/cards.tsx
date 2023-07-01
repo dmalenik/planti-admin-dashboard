@@ -1,4 +1,4 @@
-import type { CardProps } from '../types';
+import type { CardsProps } from '../types';
 import getUID from '../../../../../utils/getUID';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import leavesImg from '../assets/pexels-felipe-alves-10616343.jpg';
@@ -7,7 +7,7 @@ import mointainsViewImg from '../assets/pexels-tim-gouw-5677269.jpg';
 
 const UIDArr: string[] = getUID(3);
 
-const cards: CardProps[] = [
+const cards: CardsProps[] = [
   {
     id: UIDArr[0],
     icon: <AiFillHeart className='icon' />,

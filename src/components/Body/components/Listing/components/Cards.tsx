@@ -1,6 +1,6 @@
-import type { CardProps, CardsArrProps } from '../types';
+import type { CardsProps, CardsArrProps } from '../types';
 
-const Cards = (props: CardsArrProps<CardProps>): JSX.Element => {
+const Cards = (props: CardsArrProps<CardsProps>): JSX.Element => {
   const cardsArr: JSX.Element[] = props.items.map(
     ({ id, icon, img, title }): JSX.Element => {
       return (
