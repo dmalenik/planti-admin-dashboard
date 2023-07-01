@@ -1,6 +1,6 @@
 import type { RightCardProps } from '../types';
-import { HelpCenter } from '../../../../SideBar/components';
-import { helpCenter } from '../../../../SideBar/data';
+import { HelpCenter } from '../../../../../shared/components';
+import { helpCenter } from '../../../../../shared/data';
 
 const RightCard = (props: RightCardProps): JSX.Element => {
   return (
