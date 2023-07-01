@@ -1,4 +1,4 @@
-import { Heading } from '../Listing/components';
+import { Heading } from '../../../../shared/components';
 import { heading, cards } from './data';
 import { Cards } from './components';
 import './Activity.scss';

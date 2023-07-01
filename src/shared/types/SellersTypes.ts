@@ -31,8 +31,4 @@ interface SellerProps {
   };
 }
 
-interface SellersArrProps<T> {
-  items: T[];
-}
-
-export type { SellerProps, SellersArrProps };
+export type { SellerProps };
