@@ -1,4 +1,4 @@
-import type { MenuProps } from '../../../shared/types';
+import type { MenuProps } from '../../types/SideBar';
 import getUID from '../../../utils/getUID';
 import { AiOutlinePieChart } from 'react-icons/ai';
 import { BiTrendingUp } from 'react-icons/bi';

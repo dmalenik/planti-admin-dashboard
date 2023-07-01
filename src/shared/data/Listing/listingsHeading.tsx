@@ -1,7 +1,7 @@
-import type { HeadingProps } from '../../../../../shared/types';
+import type { HeadingProps } from '../../types/Listing';
 import { BsArrowRightShort } from 'react-icons/bs';
 
-const heading: HeadingProps = {
+const listingsHeading: HeadingProps = {
   title: { text: 'My Listings' },
   action: {
     text: 'See All',
@@ -9,4 +9,4 @@ const heading: HeadingProps = {
   },
 };
 
-export default heading;
+export default listingsHeading;

@@ -1,4 +1,4 @@
-import type { MenuProps } from '../../../shared/types';
+import type { MenuProps } from '../../types/SideBar';
 import getUID from '../../../utils/getUID';
 import { IoMdSpeedometer } from 'react-icons/io';
 import { MdDeliveryDining, MdOutlineExplore } from 'react-icons/md';

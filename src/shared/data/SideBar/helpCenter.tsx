@@ -1,4 +1,4 @@
-import type { HelpCenterData } from '../types/';
+import type { HelpCenterData } from '../../types/SideBar';
 import { BsQuestionCircle } from 'react-icons/bs';
 
 const helpCenter: HelpCenterData = {

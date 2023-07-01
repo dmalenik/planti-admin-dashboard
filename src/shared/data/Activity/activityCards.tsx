@@ -1,12 +1,12 @@
-import type { CardsProps } from '../types';
-import getUID from '../../../../../utils/getUID';
-import sunAndPlantsImg from '../assets/pexels-arnie-watkins-3068249.jpg';
-import someImg1 from '../assets/pexels-daniel-maldonado-4634361.jpg';
-import someImg2 from '../assets/pexels-lina-kivaka-1661572.jpg';
+import type { activityCardsProps } from '../../types/Activity';
+import getUID from '../../../utils/getUID';
+import sunAndPlantsImg from '../../assets/images/pexels-arnie-watkins-3068249.jpg';
+import someImg1 from '../../assets/images/pexels-daniel-maldonado-4634361.jpg';
+import someImg2 from '../../assets/images/pexels-lina-kivaka-1661572.jpg';
 
 const UIDArr = getUID(3);
 
-const cards: CardsProps[] = [
+const activityCards: activityCardsProps[] = [
   {
     id: UIDArr[0],
     portrait: {
@@ -45,4 +45,4 @@ const cards: CardsProps[] = [
   },
 ];
 
-export default cards;
+export default activityCards;

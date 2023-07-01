@@ -1,5 +1,5 @@
-import type { LeftCardProps } from '../types';
-import rainyVideo from '../assets/pexels-maksim-romashkin-12717007-3840x2160-25fps.mp4';
+import type { LeftCardProps } from '../../types/Top';
+import rainyVideo from '../../assets/videos/pexels-maksim-romashkin-12717007-3840x2160-25fps.mp4';
 
 const leftCard: LeftCardProps = {
   title: 'Create and sell extraordinary products',

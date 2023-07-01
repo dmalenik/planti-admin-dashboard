@@ -1,7 +1,7 @@
-import type { RightCardProps } from '../types';
-import getUID from '../../../../../utils/getUID';
+import type { RightCardProps } from '../../types/Top';
+import getUID from '../../../utils/getUID';
 import { BsArrowRightShort } from 'react-icons/bs';
-import flowerImage from '../assets/pexels-gursharndeep-singh-1261016.jpg';
+import flowerImage from '../../assets/images/pexels-gursharndeep-singh-1261016.jpg';
 
 const UIDArr: string[] = getUID(2);
 

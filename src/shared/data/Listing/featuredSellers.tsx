@@ -1,17 +1,17 @@
-import type { SellerProps } from '../types';
-import getUID from '../../../../../utils/getUID';
+import type { SellerProps } from '../../types/Listing';
+import getUID from '../../../utils/getUID';
 import { BsArrowRightShort } from 'react-icons/bs';
-import plantsAndWaterfallImg from '../assets/pexels-antonio-friedemann-3890544.jpg';
-import flowersAndMountainsImg from '../assets/pexels-dominik-simecek-4807058.jpg';
-import someImg2 from '../assets/pexels-madison-inouye-1054024.jpg';
+import plantsAndWaterfallImg from '../../assets/images/pexels-antonio-friedemann-3890544.jpg';
+import flowersAndMountainsImg from '../../assets/images/pexels-dominik-simecek-4807058.jpg';
+import someImg2 from '../../assets/images/pexels-madison-inouye-1054024.jpg';
 
 const UIDArr: string[] = getUID(4);
 
-const topSellers: SellerProps = {
+const featuredSellers: SellerProps = {
   id: UIDArr[0],
-  type: 'topSellers',
+  type: 'featuredSellers',
   heading: {
-    title: 'Top Sellers',
+    title: 'Featured Sellers',
     btn: {
       action: 'See All',
       icon: <BsArrowRightShort className='icon' />,
@@ -37,20 +37,20 @@ const topSellers: SellerProps = {
     ],
     text: {
       results: {
-        quantity: 14.456,
-        product: 'Plants',
+        quantity: 28.456,
+        product: 'Plants ',
         action: 'sold',
       },
       sellers: {
         role: 'Sellers',
-        quantity: 21,
+        quantity: 26,
         date: {
           type: ' Days',
-          digit: 7,
+          digit: 31,
         },
       },
     },
   },
 };
 
-export default topSellers;
+export default featuredSellers;

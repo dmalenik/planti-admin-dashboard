@@ -1,13 +1,13 @@
-import type { CardsProps } from '../types';
-import getUID from '../../../../../utils/getUID';
+import type { listingCardsProps } from '../../types/Listing';
+import getUID from '../../../utils/getUID';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
-import leavesImg from '../assets/pexels-felipe-alves-10616343.jpg';
-import palacePlantsImg from '../assets/pexels-maria-orlova-4946907.jpg';
-import mointainsViewImg from '../assets/pexels-tim-gouw-5677269.jpg';
+import leavesImg from '../../assets/images/pexels-felipe-alves-10616343.jpg';
+import palacePlantsImg from '../../assets/images/pexels-maria-orlova-4946907.jpg';
+import mointainsViewImg from '../../assets/images/pexels-tim-gouw-5677269.jpg';
 
 const UIDArr: string[] = getUID(3);
 
-const cards: CardsProps[] = [
+const listingCards: listingCardsProps[] = [
   {
     id: UIDArr[0],
     icon: <AiFillHeart className='icon' />,
@@ -28,4 +28,4 @@ const cards: CardsProps[] = [
   },
 ];
 
-export default cards;
+export default listingCards;

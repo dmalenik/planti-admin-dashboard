@@ -1,7 +1,7 @@
-import type { HeadingProps } from '../../Listing/types';
+import type { HeadingProps } from '../../types/Listing';
 import { BsArrowRightShort } from 'react-icons/bs';
 
-const heading: HeadingProps = {
+const activityHeading: HeadingProps = {
   title: { text: 'Recent Activity' },
   action: {
     text: 'See All',
@@ -9,4 +9,4 @@ const heading: HeadingProps = {
   },
 };
 
-export default heading;
+export default activityHeading;
