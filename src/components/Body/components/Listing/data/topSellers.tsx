@@ -45,7 +45,7 @@ const topSellers: SellerProps = {
         role: 'Sellers',
         quantity: 21,
         date: {
-          type: 'Days',
+          type: ' Days',
           digit: 7,
         },
       },
