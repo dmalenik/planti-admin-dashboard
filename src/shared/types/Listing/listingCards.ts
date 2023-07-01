@@ -1,7 +1,7 @@
 import { IconType } from 'react-icons';
 import { ReactElement } from 'react';
 
-interface CardsProps {
+interface listingCardsProps {
   id: string;
   icon: ReactElement<IconType>;
   img: {
@@ -11,8 +11,8 @@ interface CardsProps {
   title: string;
 }
 
-interface CardsArrProps<T> {
+interface listingCardsArrProps<T> {
   items: T[];
 }
 
-export type { CardsProps, CardsArrProps };
+export type { listingCardsProps, listingCardsArrProps };

@@ -1,4 +1,4 @@
-interface CardsProps {
+interface activityCardsProps {
   id: string;
   portrait: {
     src: string;
@@ -11,8 +11,8 @@ interface CardsProps {
   duration: string;
 }
 
-interface CardsArrProps<T> {
+interface activityCardsArrProps<T> {
   items: T[];
 }
 
-export type { CardsProps, CardsArrProps };
+export type { activityCardsProps, activityCardsArrProps };
