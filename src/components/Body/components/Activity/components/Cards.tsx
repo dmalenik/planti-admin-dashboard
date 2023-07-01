@@ -16,35 +16,7 @@ const Cards = (props: CardsArrProps<CardsProps>): JSX.Element => {
     }
   );
 
-  return (
-    <div className='secContainer grid'>
-      {/* <div className='singleCustomer flex'>
-        <img src={sunAndPlantsImg} alt='Customer Image' />
-        <div className='customerDetails'>
-          <span className='name'>Sun and Plants</span>
-          <small>Ordered a new plant</small>
-        </div>
-        <p className='duration'>2 min ago</p>
-      </div>
-      <div className='singleCustomer flex'>
-        <img src={someImg1} alt='Customer Image' />
-        <div className='customerDetails'>
-          <span className='name'>Sun and Plants</span>
-          <small>Ordered a new plant</small>
-        </div>
-        <div className='duration'>2 min ago</div>
-      </div>
-      <div className='singleCustomer flex'>
-        <img src={someImg2} alt='Customer Image' />
-        <div className='customerDetails'>
-          <span className='name'>Sun and Plants</span>
-          <small>Ordered a new plant</small>
-        </div>
-        <div className='duration'>2 min ago</div>
-      </div> */}
-      {customers}
-    </div>
-  );
+  return <div className='secContainer grid'>{customers}</div>;
 };
 
 export default Cards;
