@@ -1,4 +1,4 @@
-import type { HelpCenterProps } from '../types/';
+import type { HelpCenterProps } from '../../shared/types';
 
 const HelpCenter = (props: HelpCenterProps): JSX.Element => {
   return (

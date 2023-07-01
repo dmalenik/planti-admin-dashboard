@@ -1,6 +1,11 @@
-import type { CardsProps, CardsArrProps } from '../types';
+import type {
+  activityCardsProps,
+  activityCardsArrProps,
+} from '../../shared/types';
 
-const Cards = (props: CardsArrProps<CardsProps>): JSX.Element => {
+const Cards = (
+  props: activityCardsArrProps<activityCardsProps>
+): JSX.Element => {
   const customers: JSX.Element[] = props.items.map(
     ({ id, portrait, details, duration }): JSX.Element => {
       return (

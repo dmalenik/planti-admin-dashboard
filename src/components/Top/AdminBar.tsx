@@ -1,4 +1,4 @@
-import type { AdminBarProps } from '../types';
+import type { AdminBarProps } from '../../shared/types';
 
 const AdminBar = (props: AdminBarProps): JSX.Element => {
   return (

@@ -1,4 +1,4 @@
-import type { LeftCardProps } from '../types';
+import type { LeftCardProps } from '../../shared/types';
 
 const LeftCard = (props: LeftCardProps): JSX.Element => {
   return (

@@ -1,4 +1,4 @@
-import type { SellerProps } from '../types';
+import type { SellerProps } from '../../shared/types';
 
 export const Sellers = (props: SellerProps): JSX.Element => {
   return (

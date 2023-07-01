@@ -1,4 +1,4 @@
-import type { HeadingProps } from '../types';
+import type { HeadingProps } from '../../shared/types';
 
 const Heading = (props: HeadingProps): JSX.Element => {
   return (
