@@ -1,4 +1,5 @@
-import { Body, SideBar } from './components';
+import { Body } from './pages';
+import { SideBar } from './templates';
 import './App.scss';
 
 const App = (): JSX.Element => {
