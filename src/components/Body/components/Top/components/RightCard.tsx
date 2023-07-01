@@ -13,7 +13,10 @@ const RightCard = (props: RightCardProps): JSX.Element => {
               ({ id, type, date, quantity }): JSX.Element => {
                 return (
                   <span key={id}>
-                    {date} <br /> <small>{`${quantity} ${type}`}</small>
+                    {date} <br />
+                    <small>
+                      {quantity} {type}
+                    </small>
                   </span>
                 );
               }
@@ -24,7 +27,7 @@ const RightCard = (props: RightCardProps): JSX.Element => {
           </span>
         </div>
         <div className='imageDiv'>
-          <img src={props.image.src} alt='Image Name' />
+          <img src={props.image.src} alt={props.image.alt} />
         </div>
       </div>
       <HelpCenter
