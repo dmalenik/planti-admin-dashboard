@@ -1,4 +1,4 @@
-import { Top, Listing, Activity } from './components';
+import { Top, Listing, Activity } from '../templates';
 import './Body.scss';
 
 const Body = () => {
