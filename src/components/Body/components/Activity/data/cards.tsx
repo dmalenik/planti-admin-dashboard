@@ -1,8 +1,8 @@
 import type { CardsProps } from '../types';
 import getUID from '../../../../../utils/getUID';
-import sunAndPlantsImg from '../../../../../assets/imgs/pexels-arnie-watkins-3068249.jpg';
-import someImg1 from '../../../../../assets/imgs/pexels-daniel-maldonado-4634361.jpg';
-import someImg2 from '../../../../../assets/imgs/pexels-lina-kivaka-1661572.jpg';
+import sunAndPlantsImg from '../assets/pexels-arnie-watkins-3068249.jpg';
+import someImg1 from '../assets/pexels-daniel-maldonado-4634361.jpg';
+import someImg2 from '../assets/pexels-lina-kivaka-1661572.jpg';
 
 const UIDArr = getUID(3);
 
