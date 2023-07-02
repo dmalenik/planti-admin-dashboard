@@ -1,0 +1,99 @@
+@use './shared/styles/vars';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.3s ease;
+}
+
+/* Default Styles */
+html {
+  font-size: 90%;
+}
+
+body {
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn,
+.icon {
+  margin-left: 0.5rem;
+}
+
+.btn {
+  padding: 0.8rem 1rem;
+  border: unset;
+  border-radius: 8px;
+  outline: unset;
+  box-shadow: 0 2px 4px vars.$input-color;
+  color: vars.$text-color;
+  cursor: pointer;
+
+  &:hover {
+    color: vars.$primary-color;
+    background: vars.$pale-green;
+  }
+}
+
+.icon {
+  font-size: vars.$h2-font-size;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .heading {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
