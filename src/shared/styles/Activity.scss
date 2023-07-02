@@ -76,3 +76,13 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .activitySection {
+    .heading {
+      h1 {
+        padding: 0.5rem 0;
+      }
+    }
+  }
+}
