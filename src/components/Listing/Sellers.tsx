@@ -2,7 +2,7 @@ import type { SellerProps } from '../../shared/types';
 
 export const Sellers = (props: SellerProps): JSX.Element => {
   return (
-    <div className={props.type} key={props.id}>
+    <div className={`${props.type} flex`} key={props.id}>
       <div className='heading flex'>
         <h3>{props.heading.title}</h3>
         <button className='btn flex'>
