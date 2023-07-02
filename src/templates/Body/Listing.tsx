@@ -5,7 +5,7 @@ import {
   topSellers,
   featuredSellers,
 } from '../../shared/data';
-import './Listing.scss';
+import '../../shared/styles/Listing.scss';
 
 const Listing = (): JSX.Element => {
   return (
