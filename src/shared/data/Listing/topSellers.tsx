@@ -38,7 +38,7 @@ const topSellers: SellerProps = {
     text: {
       results: {
         quantity: 14.456,
-        product: 'Plants',
+        product: 'Plants ',
         action: 'sold',
       },
       sellers: {
