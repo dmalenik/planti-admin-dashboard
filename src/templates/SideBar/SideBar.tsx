@@ -1,7 +1,7 @@
 import logo from '../../shared/assets/images/pexels-alan-cabello-1173217.jpg';
 import { Menu, HelpCenter } from '../../components';
 import { quickMenu, settingsMenu, helpCenter } from '../../shared/data';
-import './SideBar.scss';
+import '../../shared/styles/SideBar.scss';
 
 const SideBar = (): JSX.Element => (
   <div className='sideBar grid'>
