@@ -1,29 +1,11 @@
-/* Colors and Styles (Default) */
-$primary-color: hsl(94, 59%, 35%);
-$hover-color: #bdf094;
-$pale-green: hsl(96, 75%, 89%);
-$white-color: hsl(0, 0%, 100%);
-$black-color: hsl(0, 0%, 10%);
-$text-color: hsl(240, 1%, 48%);
-$bg-color: hsl(220, 10%, 94%);
-$grey-text: rgb(190, 190, 190);
-$input-color: hsl(330, 12%, 97%);
-
-/* Fonts and Typography */
-$biggest-font-size: 2.5rem;
-$h1-font-size: 1.5rem;
-$h2-font-size: 1.25rem;
-$h3-font-size: 1rem;
-$normal-font-size: 0.938rem;
-$small-font-size: 0.813rem;
-$smallest-font-size: 0.75rem;
+@use '../../shared/styles/vars';
 
 .sideBar {
   gap: 1.5rem;
   width: 18%;
   height: 100%;
-  background: $white-color;
-  box-shadow: 1px 0px 4px $grey-text;
+  background: vars.$white-color;
+  box-shadow: 1px 0px 4px vars.$grey-text;
   overflow: auto;
 
   .logoDiv {
@@ -35,12 +17,12 @@ $smallest-font-size: 0.75rem;
       padding: 0.2rem;
       border-radius: 2px;
       margin-right: 0.5rem;
-      background: $input-color;
+      background: vars.$input-color;
     }
 
     h2 {
-      font-size: $h2-font-size;
-      color: $primary-color;
+      font-size: vars.$h2-font-size;
+      color: vars.$primary-color;
     }
   }
 
@@ -48,8 +30,8 @@ $smallest-font-size: 0.75rem;
   .settingsDiv {
     .divTitle {
       padding: 0 1.5rem 1.5rem;
-      font-size: $h3-font-size;
-      color: $black-color;
+      font-size: vars.$h3-font-size;
+      color: vars.$black-color;
     }
 
     .menuLists {
@@ -67,12 +49,12 @@ $smallest-font-size: 0.75rem;
           position: absolute;
           left: 0;
           bottom: 0;
-          background: $primary-color;
+          background: vars.$primary-color;
         }
 
         .menuLink {
           font-weight: 500;
-          color: $grey-text;
+          color: vars.$grey-text;
 
           .icon {
             margin-right: 0.5rem;
@@ -81,7 +63,7 @@ $smallest-font-size: 0.75rem;
 
         &:hover .menuLink {
           transition: 0;
-          color: $primary-color;
+          color: vars.$primary-color;
         }
 
         &:hover::before {
@@ -99,14 +81,14 @@ $smallest-font-size: 0.75rem;
     text-align: center;
 
     .icon {
-      border: 10px solid $white-color;
+      border: 10px solid vars.$white-color;
       border-radius: 50%;
       position: absolute;
       top: -8px;
       right: 50%;
       z-index: 100;
       font-size: 3rem;
-      background: $hover-color;
+      background: vars.$hover-color;
       transform: translate(50%);
     }
 
@@ -114,14 +96,14 @@ $smallest-font-size: 0.75rem;
       padding: 1rem;
       border-radius: 10px;
       position: relative;
-      background: $hover-color;
+      background: vars.$hover-color;
       overflow: hidden;
 
       .circle1,
       .circle2 {
         border-radius: 50%;
         position: absolute;
-        background: $pale-green;
+        background: vars.$pale-green;
         opacity: 0.7;
       }
 
@@ -143,21 +125,21 @@ $smallest-font-size: 0.75rem;
       h3 {
         padding: 1rem 0;
         margin-top: 1rem;
-        font-size: $h3-font-size;
+        font-size: vars.$h3-font-size;
         font-weight: 800;
-        color: $black-color;
+        color: vars.$black-color;
       }
 
       p {
         padding-bottom: 1rem;
-        font-size: $normal-font-size;
+        font-size: vars.$normal-font-size;
         font-weight: 500;
-        color: $text-color;
+        color: vars.$text-color;
       }
 
       .btn {
         position: relative;
-        color: $text-color;
+        color: vars.$text-color;
         z-index: 1000;
       }
     }
@@ -246,7 +228,7 @@ $smallest-font-size: 0.75rem;
         .listItem {
           .menuLink {
             .icon {
-              font-size: $h1-font-size;
+              font-size: vars.$h1-font-size;
             }
           }
         }
@@ -265,7 +247,7 @@ $smallest-font-size: 0.75rem;
 
           .menuLink {
             .icon {
-              font-size: $h2-font-size;
+              font-size: vars.$h2-font-size;
             }
           }
         }

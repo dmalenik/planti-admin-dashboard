@@ -1,22 +1,4 @@
-/* Colors and Styles (Default) */
-$primary-color: hsl(94, 59%, 35%);
-$hover-color: #bdf094;
-$pale-green: hsl(96, 75%, 89%);
-$white-color: hsl(0, 0%, 100%);
-$black-color: hsl(0, 0%, 10%);
-$text-color: hsl(240, 1%, 48%);
-$bg-color: hsl(220, 10%, 94%);
-$grey-text: rgb(190, 190, 190);
-$input-color: hsl(330, 12%, 97%);
-
-/* Fonts and Typography */
-$biggest-font-size: 2.5rem;
-$h1-font-size: 1.5rem;
-$h2-font-size: 1.25rem;
-$h3-font-size: 1rem;
-$normal-font-size: 0.938rem;
-$small-font-size: 0.813rem;
-$smallest-font-size: 0.75rem;
+@use '../../shared/styles/vars';
 
 .topSection {
   .headerSection {
@@ -24,15 +6,15 @@ $smallest-font-size: 0.75rem;
 
     .title {
       h1 {
-        font-size: $h1-font-size;
+        font-size: vars.$h1-font-size;
         font-weight: 700;
-        color: $black-color;
+        color: vars.$black-color;
       }
 
       p {
-        font-size: $normal-font-size;
+        font-size: vars.$normal-font-size;
         font-weight: 500;
-        color: $text-color;
+        color: vars.$text-color;
       }
     }
 
@@ -40,8 +22,8 @@ $smallest-font-size: 0.75rem;
       border-radius: 5px;
       gap: 1rem;
       padding: 1rem 2rem;
-      background: $white-color;
-      box-shadow: 0 2px 4px $input-color;
+      background: vars.$white-color;
+      box-shadow: 0 2px 4px vars.$input-color;
 
       input {
         border: none;
@@ -50,10 +32,10 @@ $smallest-font-size: 0.75rem;
       }
 
       .icon {
-        color: $text-color;
+        color: vars.$text-color;
 
         &:hover {
-          color: $primary-color;
+          color: vars.$primary-color;
         }
       }
     }
@@ -64,17 +46,17 @@ $smallest-font-size: 0.75rem;
       .icon {
         padding: 5px;
         border-radius: 5px;
-        font-size: $biggest-font-size;
-        color: $text-color;
-        background: $white-color;
-        box-shadow: 0 2px 4px $input-color;
+        font-size: vars.$biggest-font-size;
+        color: vars.$text-color;
+        background: vars.$white-color;
+        box-shadow: 0 2px 4px vars.$input-color;
       }
 
       .adminImage {
         width: 2.5rem;
-        border: 3px solid $white-color;
+        border: 3px solid vars.$white-color;
         border-radius: 10px;
-        box-shadow: 0 2px 4px $input-color;
+        box-shadow: 0 2px 4px vars.$input-color;
         overflow: hidden;
 
         img {
@@ -109,15 +91,15 @@ $smallest-font-size: 0.75rem;
 
       h1 {
         padding: 1rem 1rem 0;
-        font-size: $h1-font-size;
+        font-size: vars.$h1-font-size;
         font-weight: 800;
-        color: $white-color;
+        color: vars.$white-color;
       }
 
       p {
         padding: 1rem;
         font-weight: 500;
-        color: $pale-green;
+        color: vars.$pale-green;
       }
 
       .buttons {
@@ -126,18 +108,18 @@ $smallest-font-size: 0.75rem;
         .btn {
           padding: 0.8rem 1.5rem;
           border: 2px solid transparent;
-          color: $primary-color;
+          color: vars.$primary-color;
           box-shadow: none;
         }
 
         .transparent {
-          border: 2px solid $pale-green;
+          border: 2px solid vars.$pale-green;
           background: none;
-          color: $pale-green;
+          color: vars.$pale-green;
 
           &:hover {
-            color: $primary-color;
-            background: $pale-green;
+            color: vars.$primary-color;
+            background: vars.$pale-green;
           }
         }
       }
@@ -178,7 +160,7 @@ $smallest-font-size: 0.75rem;
           position: absolute;
           left: 0;
           bottom: 0;
-          background: $pale-green;
+          background: vars.$pale-green;
         }
 
         .textDiv {
@@ -186,21 +168,21 @@ $smallest-font-size: 0.75rem;
 
           h1 {
             padding-bottom: 1rem;
-            font-size: $h1-font-size;
-            color: $black-color;
+            font-size: vars.$h1-font-size;
+            color: vars.$black-color;
           }
 
           .flex {
             font-weight: 500;
             gap: 1.5rem;
-            color: $black-color;
+            color: vars.$black-color;
 
             small {
               padding: 0.5rem 0;
               display: block;
-              font-size: $normal-font-size;
+              font-size: vars.$normal-font-size;
               font-weight: 500;
-              color: $primary-color;
+              color: vars.$primary-color;
             }
           }
 
@@ -209,7 +191,7 @@ $smallest-font-size: 0.75rem;
             cursor: pointer;
 
             &:hover {
-              color: $primary-color;
+              color: vars.$primary-color;
 
               .icon {
                 transform: translateX(10px);
@@ -236,14 +218,14 @@ $smallest-font-size: 0.75rem;
         text-align: center;
 
         .icon {
-          border: 10px solid $white-color;
+          border: 10px solid vars.$white-color;
           border-radius: 50%;
           position: absolute;
           top: -8px;
           right: 50%;
           z-index: 100;
           font-size: 3rem;
-          background: $hover-color;
+          background: vars.$hover-color;
           transform: translate(50%);
         }
 
@@ -251,14 +233,14 @@ $smallest-font-size: 0.75rem;
           padding: 1rem;
           border-radius: 10px;
           position: relative;
-          background: $hover-color;
+          background: vars.$hover-color;
           overflow: hidden;
 
           .circle1,
           .circle2 {
             border-radius: 50%;
             position: absolute;
-            background: $pale-green;
+            background: vars.$pale-green;
             opacity: 0.7;
           }
 
@@ -280,21 +262,21 @@ $smallest-font-size: 0.75rem;
           h3 {
             padding: 1rem 0;
             margin-top: 1rem;
-            font-size: $h3-font-size;
+            font-size: vars.$h3-font-size;
             font-weight: 800;
-            color: $black-color;
+            color: vars.$black-color;
           }
 
           p {
             padding-bottom: 1rem;
-            font-size: $normal-font-size;
+            font-size: vars.$normal-font-size;
             font-weight: 500;
-            color: $text-color;
+            color: vars.$text-color;
           }
 
           .btn {
             position: relative;
-            color: $text-color;
+            color: vars.$text-color;
             z-index: 1000;
           }
         }
@@ -382,7 +364,7 @@ $smallest-font-size: 0.75rem;
 
       .rightCard {
         .main {
-          background: $pale-green;
+          background: vars.$pale-green;
 
           .textDiv {
             margin: auto;
@@ -404,7 +386,7 @@ $smallest-font-size: 0.75rem;
         padding: 2rem 1rem;
 
         h1 {
-          font-size: $h2-font-size;
+          font-size: vars.$h2-font-size;
         }
       }
     }
