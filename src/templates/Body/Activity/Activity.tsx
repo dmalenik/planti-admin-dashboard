@@ -1,6 +1,6 @@
-import { ActivityCards, Heading } from '../../components';
-import { activityHeading, activityCards } from '../../shared/data';
-import '../../shared/styles/Activity.scss';
+import { ActivityCards, Heading } from '../../../components';
+import { activityHeading, activityCards } from '../../../shared/data';
+import './Activity.scss';
 
 const Activity = (): JSX.Element => {
   return (

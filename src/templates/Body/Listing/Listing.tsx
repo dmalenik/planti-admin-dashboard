@@ -1,11 +1,11 @@
-import { ListingCards, Sellers, Heading } from '../../components';
+import { ListingCards, Sellers, Heading } from '../../../components';
 import {
   listingsHeading,
   listingCards,
   topSellers,
   featuredSellers,
-} from '../../shared/data';
-import '../../shared/styles/Listing.scss';
+} from '../../../shared/data';
+import './Listing.scss';
 
 const Listing = (): JSX.Element => {
   return (

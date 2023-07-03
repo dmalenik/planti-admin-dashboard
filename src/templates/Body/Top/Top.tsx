@@ -1,6 +1,6 @@
-import { AdminBar, LeftCard, RightCard } from '../../components';
-import { adminBar, rightCard, leftCard } from '../../shared/data';
-import '../../shared/styles/Top.scss';
+import { AdminBar, LeftCard, RightCard } from '../../../components';
+import { adminBar, rightCard, leftCard } from '../../../shared/data';
+import './Top.scss';
 
 const Top = (): JSX.Element => {
   return (

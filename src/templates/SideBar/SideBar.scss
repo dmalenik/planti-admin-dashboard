@@ -1,4 +1,4 @@
-@use './vars';
+@use '../../styles/vars';
 
 .sideBar {
   gap: 1.5rem;
@@ -13,9 +13,7 @@
     cursor: pointer;
 
     img {
-      // width: 65px;
       width: 50%;
-      // padding: 0.5rem;
       border-radius: 2px;
       margin-right: 0.5rem;
       background: vars.$input-color;
@@ -212,10 +210,6 @@
     .logoDiv {
       width: 100%;
       margin: auto;
-
-      // img {
-      //   max-width: 80%;
-      // }
     }
 
     .menuDiv,
