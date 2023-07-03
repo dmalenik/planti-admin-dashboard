@@ -4,9 +4,12 @@ import { ReactElement } from 'react';
 interface AdminBarProps {
   title: {
     heading: string;
-    text: string;
+    description: string;
   };
   searchBar: {
+    type: string;
+    name: string;
+    id: string;
     icon: ReactElement<IconType>;
   };
   adminDiv: {

@@ -5,10 +5,15 @@ const AdminBar = (props: AdminBarProps): JSX.Element => {
     <div className='headerSection flex'>
       <div className='title'>
         <h1>{props.title.heading}</h1>
-        <p>{props.title.text}</p>
+        <p>{props.title.description}</p>
       </div>
       <div className='searchBar flex'>
-        <input type='text' name='' id='' placeholder='Search Dashboard' />
+        <input
+          type={props.searchBar.type}
+          name={props.searchBar.name}
+          id={props.searchBar.id}
+          placeholder='Search Dashboard'
+        />
         {props.searchBar.icon}
       </div>
       <div className='adminDiv flex'>

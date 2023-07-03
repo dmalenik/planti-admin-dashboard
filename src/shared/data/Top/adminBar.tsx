@@ -1,4 +1,4 @@
-import type { AdminBarProps } from '../../types/Top';
+import type { AdminBarProps } from '../../types';
 import getUID from '../../../utils/getUID';
 import { BiSearchAlt } from 'react-icons/bi';
 import { TbMessageCircle } from 'react-icons/tb';
@@ -10,9 +10,12 @@ const UIDArr: string[] = getUID(2);
 const adminBar: AdminBarProps = {
   title: {
     heading: 'Welcome to Planti',
-    text: 'Hello, Dmitriy. Welcome back!',
+    description: 'Hello, Dmitriy. Welcome back!',
   },
   searchBar: {
+    type: 'text',
+    id: 'SearchBar',
+    name: 'SearchBar',
     icon: <BiSearchAlt className='icon' />,
   },
   adminDiv: {
