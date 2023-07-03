@@ -1,4 +1,4 @@
-import type { LeftCardProps } from '../../types/Top';
+import type { LeftCardProps } from '../../types';
 import rainyVideo from '../../assets/videos/pexels-maksim-romashkin-12717007-3840x2160-25fps.mp4';
 
 const leftCard: LeftCardProps = {

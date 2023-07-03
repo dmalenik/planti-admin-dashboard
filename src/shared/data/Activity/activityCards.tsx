@@ -1,4 +1,4 @@
-import type { activityCardsProps } from '../../types/Activity';
+import type { activityCardsProps } from '../../types';
 import getUID from '../../../utils/getUID';
 import sunAndPlantsImg from '../../assets/images/pexels-arnie-watkins-3068249.jpg';
 import someImg1 from '../../assets/images/pexels-daniel-maldonado-4634361.jpg';

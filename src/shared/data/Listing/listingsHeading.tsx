@@ -1,4 +1,4 @@
-import type { HeadingProps } from '../../types/Listing';
+import type { HeadingProps } from '../../types';
 import { BsArrowRightShort } from 'react-icons/bs';
 
 const listingsHeading: HeadingProps = {

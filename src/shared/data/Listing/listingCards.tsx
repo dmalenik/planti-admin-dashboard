@@ -1,4 +1,4 @@
-import type { listingCardsProps } from '../../types/Listing';
+import type { listingCardsProps } from '../../types';
 import getUID from '../../../utils/getUID';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import leavesImg from '../../assets/images/pexels-felipe-alves-10616343.jpg';
