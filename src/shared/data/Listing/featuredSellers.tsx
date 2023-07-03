@@ -1,4 +1,4 @@
-import type { SellerProps } from '../../types/Listing';
+import type { SellerProps, HeadingProps } from '../../types';
 import getUID from '../../../utils/getUID';
 import { BsArrowRightShort } from 'react-icons/bs';
 import plantsAndWaterfallImg from '../../assets/images/pexels-antonio-friedemann-3890544.jpg';
@@ -7,13 +7,13 @@ import someImg2 from '../../assets/images/pexels-madison-inouye-1054024.jpg';
 
 const UIDArr: string[] = getUID(4);
 
-const featuredSellers: SellerProps = {
+const featuredSellers: SellerProps<HeadingProps> = {
   id: UIDArr[0],
   type: 'featuredSellers',
   heading: {
-    title: 'Featured Sellers',
-    btn: {
-      action: 'See All',
+    title: { text: 'Featured Sellers' },
+    action: {
+      text: 'See All',
       icon: <BsArrowRightShort className='icon' />,
     },
   },

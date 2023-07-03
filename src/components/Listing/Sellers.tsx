@@ -1,12 +1,12 @@
-import type { SellerProps } from '../../shared/types';
+import type { SellerProps, HeadingProps } from '../../shared/types';
 
-export const Sellers = (props: SellerProps): JSX.Element => {
+export const Sellers = (props: SellerProps<HeadingProps>): JSX.Element => {
   return (
     <div className={`${props.type} flex`} key={props.id}>
       <div className='heading flex'>
-        <h3>{props.heading.title}</h3>
+        <h3>{props.heading.title.text}</h3>
         <button className='btn flex'>
-          {props.heading.btn.action} {props.heading.btn.icon}
+          {props.heading.action.text} {props.heading.action.icon}
         </button>
       </div>
       <div className='card flex'>

@@ -1,16 +1,7 @@
-import { IconType } from 'react-icons';
-import { ReactElement } from 'react';
-
-interface SellerProps {
+interface SellerProps<T> {
   id: string;
   type: string;
-  heading: {
-    title: string;
-    btn: {
-      action: string;
-      icon: ReactElement<IconType>;
-    };
-  };
+  heading: T;
   card: {
     users: { id: string; src: string; alt: string }[];
     text: {
