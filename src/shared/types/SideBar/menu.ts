@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-import { IconType } from 'react-icons';
+import type { IconType } from 'react-icons';
 
 interface MenuProps {
   type: string;

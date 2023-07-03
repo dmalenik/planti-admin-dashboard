@@ -1,17 +1,11 @@
 import { ReactElement } from 'react';
-
-interface HelpCenterData {
-  title: string;
-  description: string;
-  btnText: string;
-  icon: ReactElement;
-}
+import type { IconType } from 'react-icons';
 
 interface HelpCenterProps {
-  icon: ReactElement;
+  icon: ReactElement<IconType>;
   title: string;
   description: string;
   btnText: string;
 }
 
-export { type HelpCenterData, type HelpCenterProps };
+export type { HelpCenterProps };
