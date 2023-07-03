@@ -4,7 +4,7 @@ import sunAndPlantsImg from '../../assets/images/pexels-arnie-watkins-3068249.jp
 import someImg1 from '../../assets/images/pexels-daniel-maldonado-4634361.jpg';
 import someImg2 from '../../assets/images/pexels-lina-kivaka-1661572.jpg';
 
-const UIDArr = getUID(3);
+const UIDArr: string[] = getUID(3);
 
 const activityCards: activityCardsProps[] = [
   {
