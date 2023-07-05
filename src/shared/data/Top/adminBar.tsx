@@ -1,9 +1,10 @@
 import type { AdminBarProps } from '../../types';
 import getUID from '../../../utils/getUID';
-import { BiSearchAlt } from 'react-icons/bi';
-import { TbMessageCircle } from 'react-icons/tb';
-import { IoMdNotificationsOutline } from 'react-icons/io';
 import adminImage from '../../assets/images/webp-42/adminbar-admin.webp';
+
+const { BiSearchAlt } = await import('react-icons/bi');
+const { TbMessageCircle } = await import('react-icons/tb');
+const { IoMdNotificationsOutline } = await import('react-icons/io');
 
 const UIDArr: string[] = getUID(2);
 
