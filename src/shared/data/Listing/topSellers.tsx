@@ -1,9 +1,9 @@
 import type { HeadingProps, SellerProps } from '../../types';
 import getUID from '../../../utils/getUID';
 import { BsArrowRightShort } from 'react-icons/bs';
-import plantsAndWaterfallImg from '../../assets/images/pexels-antonio-friedemann-3890544.jpg';
-import flowersAndMountainsImg from '../../assets/images/pexels-dominik-simecek-4807058.jpg';
-import someImg2 from '../../assets/images/pexels-madison-inouye-1054024.jpg';
+import plantsAndWaterfallImg from '../../assets/images/webp-42/topsellers-waterfall.webp';
+import flowersAndMountainsImg from '../../assets/images/webp-42/topsellers-mountains_and_flowers.webp';
+import someImg2 from '../../assets/images/webp-42/topsellers-flowers.webp';
 
 const UIDArr: string[] = getUID(4);
 

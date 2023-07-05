@@ -3,7 +3,7 @@ import getUID from '../../../utils/getUID';
 import { BiSearchAlt } from 'react-icons/bi';
 import { TbMessageCircle } from 'react-icons/tb';
 import { IoMdNotificationsOutline } from 'react-icons/io';
-import adminImage from '../../assets/images/2019-04-03_IMG_0457_ret_35x45 mm.jpg';
+import adminImage from '../../assets/images/webp-42/adminbar-admin.webp';
 
 const UIDArr: string[] = getUID(2);
 

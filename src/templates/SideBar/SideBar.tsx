@@ -1,4 +1,4 @@
-import logo from '../../shared/assets/images/pexels-alan-cabello-1173217.jpg';
+import logo from '../../shared/assets/images/webp-42/sidebar-logo.webp';
 import { Menu, HelpCenter } from '../../components';
 import { quickMenu, settingsMenu, helpCenter } from '../../shared/data';
 import './SideBar.scss';
