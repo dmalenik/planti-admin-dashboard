@@ -1,9 +1,10 @@
 import type { listingCardsProps } from '../../types';
 import getUID from '../../../utils/getUID';
-import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import leavesImg from '../../assets/images/webp-42/listingcards-annual_vince.webp';
 import palacePlantsImg from '../../assets/images/webp-42/listingcards-palace_and_plants.webp';
 import mointainsViewImg from '../../assets/images/webp-42/listingcards-mountains_view.webp';
+
+const { AiFillHeart, AiOutlineHeart } = await import('react-icons/ai');
 
 const UIDArr: string[] = getUID(3);
 

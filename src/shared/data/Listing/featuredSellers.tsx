@@ -1,9 +1,10 @@
 import type { SellerProps, HeadingProps } from '../../types';
 import getUID from '../../../utils/getUID';
-import { BsArrowRightShort } from 'react-icons/bs';
 import plantsAndWaterfallImg from '../../assets/images/webp-42/topsellers-waterfall.webp';
 import flowersAndMountainsImg from '../../assets/images/webp-42/topsellers-mountains_and_flowers.webp';
 import someImg2 from '../../assets/images/webp-42/topsellers-flowers.webp';
+
+const { BsArrowRightShort } = await import('react-icons/bs');
 
 const UIDArr: string[] = getUID(4);
 
