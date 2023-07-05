@@ -1,5 +1,6 @@
 import type { HeadingProps } from '../../types';
-import { BsArrowRightShort } from 'react-icons/bs';
+
+const { BsArrowRightShort } = await import('react-icons/bs');
 
 const activityHeading: HeadingProps = {
   title: { text: 'Recent Activity' },
