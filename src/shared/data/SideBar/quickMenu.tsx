@@ -1,8 +1,9 @@
 import type { MenuProps } from '../../types';
 import getUID from '../../../utils/getUID';
-import { IoMdSpeedometer } from 'react-icons/io';
-import { MdDeliveryDining, MdOutlineExplore } from 'react-icons/md';
-import { BsTrophy } from 'react-icons/bs';
+
+const { IoMdSpeedometer } = await import('react-icons/io');
+const { MdDeliveryDining, MdOutlineExplore } = await import('react-icons/md');
+const { BsTrophy } = await import('react-icons/bs');
 
 const UIDArr: string[] = getUID(4);
 

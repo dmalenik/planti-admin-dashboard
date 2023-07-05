@@ -1,4 +1,4 @@
-import { ReactElement } from 'react';
+import type { ReactElement } from 'react';
 import type { IconType } from 'react-icons';
 
 interface HelpCenterProps {

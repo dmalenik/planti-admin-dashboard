@@ -1,9 +1,10 @@
 import type { MenuProps } from '../../types';
 import getUID from '../../../utils/getUID';
-import { AiOutlinePieChart } from 'react-icons/ai';
-import { BiTrendingUp } from 'react-icons/bi';
-import { MdOutlinePermContactCalendar } from 'react-icons/md';
-import { BsCreditCard2Front } from 'react-icons/bs';
+
+const { AiOutlinePieChart } = await import('react-icons/ai');
+const { BiTrendingUp } = await import('react-icons/bi');
+const { MdOutlinePermContactCalendar } = await import('react-icons/md');
+const { BsCreditCard2Front } = await import('react-icons/bs');
 
 const UIDArr: string[] = getUID(4);
 
