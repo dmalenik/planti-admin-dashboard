@@ -10,7 +10,7 @@ const LeftCard = (props: LeftCardProps): JSX.Element => {
         <button className='btn transparent'>{props.actions.action2}</button>
       </div>
       <div className='videoDiv'>
-        <video src={props.video.src} autoPlay loop muted></video>
+        <video src={props.video.src} poster={props.video.poster} autoPlay loop muted></video>
       </div>
     </div>
   );

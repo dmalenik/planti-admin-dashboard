@@ -5,7 +5,7 @@ interface LeftCardProps {
     action1: string;
     action2: string;
   };
-  video: { src: string };
+  video: { src: string; poster: string };
 }
 
 export type { LeftCardProps };
