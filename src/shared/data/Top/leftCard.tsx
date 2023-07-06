@@ -1,4 +1,5 @@
 import type { LeftCardProps } from '../../types';
+import rainyVideo from '../../assets/videos/rainyVideo_crop_720.mp4';
 import rainyVideoPoster from '../../assets/videos/rainyVideoPoster.webp';
 
 const leftCard: LeftCardProps = {
@@ -9,7 +10,7 @@ const leftCard: LeftCardProps = {
     action1: 'Exlore More',
     action2: 'Top Sellers',
   },
-  video: { src: rainyVideo },
+  video: { src: rainyVideo, poster: rainyVideoPoster },
 };
 
 export default leftCard;
