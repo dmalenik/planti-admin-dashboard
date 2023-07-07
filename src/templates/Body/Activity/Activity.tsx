@@ -1,6 +1,7 @@
 import { ActivityCards, Heading } from '../../../components';
-import { activityHeading, activityCards } from '../../../shared/data';
 import './Activity.scss';
+
+const { activityCards, activityHeading } = await import('../../../shared/data');
 
 const Activity = (): JSX.Element => {
   return (

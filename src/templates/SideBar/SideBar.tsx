@@ -1,7 +1,10 @@
 import logo from '../../shared/assets/SideBar/42kb/webp/sidebar-logo.webp';
 import { Menu, HelpCenter } from '../../components';
-import { quickMenu, settingsMenu, helpCenter } from '../../shared/data';
 import './SideBar.scss';
+
+const { quickMenu, settingsMenu, helpCenter } = await import(
+  '../../shared/data'
+);
 
 const SideBar = (): JSX.Element => (
   <div className='sideBar grid'>
