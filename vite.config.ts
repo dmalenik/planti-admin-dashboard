@@ -1,21 +1,23 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     force: true,
-    exclude: ['react-icons'],
+    exclude: ['react-icons', 'src/shared/data/*.tsx', 'src/templates/*.tsx'],
   },
   build: {
     rollupOptions: {
       output: {
         manualChunks: {
           reactIcons: ['react-icons'],
-          video: ['src/shared/assets/Top/crop_720/rainyVideo_crop_720.mp4']
+          dashboardData: ['./src/shared/data/'],
+          bodyTemplates: ['./src/templates/Body/'],
         },
       },
     },
+    target: 'esnext',
   },
 });
