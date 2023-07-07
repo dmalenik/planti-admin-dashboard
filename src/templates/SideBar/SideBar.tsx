@@ -1,4 +1,4 @@
-import logo from '../../shared/assets/images/webp-42/sidebar-logo.webp';
+import logo from '../../shared/assets/SideBar/42kb/webp/sidebar-logo.webp';
 import { Menu, HelpCenter } from '../../components';
 import { quickMenu, settingsMenu, helpCenter } from '../../shared/data';
 import './SideBar.scss';
