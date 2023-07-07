@@ -1,6 +1,7 @@
 import type { RightCardProps } from '../../types';
 import getUID from '../../../utils/getUID';
-import flowerImage from '../../assets/images/webp-42/rightcard-flower.webp';
+
+import flowerImage from '../../assets/Top/42kb/webp/rightcard-flower.webp';
 
 const { BsArrowRightShort } = await import('react-icons/bs');
 

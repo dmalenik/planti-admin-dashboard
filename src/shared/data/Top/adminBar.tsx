@@ -1,6 +1,7 @@
 import type { AdminBarProps } from '../../types';
 import getUID from '../../../utils/getUID';
-import adminImage from '../../assets/images/webp-42/adminbar-admin.webp';
+
+import adminImage from '../../assets/Top/42kb/webp/adminbar-admin.webp';
 
 const { BiSearchAlt } = await import('react-icons/bi');
 const { TbMessageCircle } = await import('react-icons/tb');

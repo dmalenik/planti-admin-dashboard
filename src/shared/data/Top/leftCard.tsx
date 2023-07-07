@@ -1,6 +1,7 @@
 import type { LeftCardProps } from '../../types';
-import rainyVideo from '../../assets/videos/rainyVideo_crop_720.mp4';
-import rainyVideoPoster from '../../assets/videos/rainyVideoPoster.webp';
+
+import rainyVideo from '../../assets/Top/crop_720/rainyVideo_crop_720.mp4';
+import rainyVideoPoster from '../../assets/Top/rainyVideoPoster.webp';
 
 const leftCard: LeftCardProps = {
   title: 'Create and sell extraordinary products',
