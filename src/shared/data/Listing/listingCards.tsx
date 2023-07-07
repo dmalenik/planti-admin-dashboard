@@ -1,8 +1,9 @@
 import type { listingCardsProps } from '../../types';
 import getUID from '../../../utils/getUID';
-import leavesImg from '../../assets/images/webp-42/listingcards-annual_vince.webp';
-import palacePlantsImg from '../../assets/images/webp-42/listingcards-palace_and_plants.webp';
-import mointainsViewImg from '../../assets/images/webp-42/listingcards-mountains_view.webp';
+
+import leavesImg from '../../assets/Listing/42kb/webp/listingcards-annual_vince.webp';
+import palacePlantsImg from '../../assets/Listing/42kb/webp/listingcards-palace_and_plants.webp';
+import mointainsViewImg from '../../assets/Listing/42kb/webp/listingcards-mountains_view.webp';
 
 const { AiFillHeart, AiOutlineHeart } = await import('react-icons/ai');
 
