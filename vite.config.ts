@@ -13,7 +13,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           reactIcons: ['react-icons'],
-          videos: ['./src/shared/assets/videos'],
+          video: ['./src/shared/assets/Top']
         },
       },
     },
