@@ -1,2 +1,2 @@
 export type { MenuProps } from './menu';
-export type { HelpCenterData, HelpCenterProps } from './helpCenter';
+export type { HelpCenterProps } from './helpCenter';

@@ -1,8 +1,8 @@
-import type { HelpCenterData } from '../../types';
+import type { HelpCenterProps } from '../../types';
 
 const { BsQuestionCircle } = await import('react-icons/bs');
 
-const helpCenter: HelpCenterData = {
+const helpCenter: HelpCenterProps = {
   title: 'Help Center',
   description:
     'Having troubles in Planti, please contact us for more questions',
