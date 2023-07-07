@@ -1,5 +1,6 @@
-import { Top, Listing, Activity } from '../templates';
 import './Body.scss';
+
+const { Top, Listing, Activity } = await import('../templates');
 
 const Body = () => {
   return (
