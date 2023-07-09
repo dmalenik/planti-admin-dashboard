@@ -3,13 +3,13 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/dist/',
   plugins: [react()],
   optimizeDeps: {
     force: true,
     exclude: ['react-icons', 'src/shared/data/*.tsx', 'src/templates/*.tsx'],
   },
   build: {
+    target: 'esnext',
     rollupOptions: {
       output: {
         manualChunks: {
@@ -19,6 +19,5 @@ export default defineConfig({
         },
       },
     },
-    target: 'esnext',
   },
 });
