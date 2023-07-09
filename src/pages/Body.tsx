@@ -1,6 +1,9 @@
 import './Body.scss';
-
-const { Top, Listing, Activity } = await import('../templates');
+/* 
+** do not import templates with await import
+** causes blank page on production
+*/
+import { Top, Listing, Activity } from '../templates';
 
 const Body = () => {
   return (
