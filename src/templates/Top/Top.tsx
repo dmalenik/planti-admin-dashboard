@@ -1,7 +1,7 @@
-import { AdminBar, LeftCard, RightCard } from '../../../components';
+import { AdminBar, LeftCard, RightCard } from '../../components';
 import './Top.scss';
 
-const { adminBar, rightCard, leftCard } = await import('../../../shared/data');
+const { adminBar, rightCard, leftCard } = await import('../../shared/data');
 
 const Top = (): JSX.Element => {
   return (

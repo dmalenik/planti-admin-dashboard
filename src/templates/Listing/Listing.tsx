@@ -1,8 +1,8 @@
-import { ListingCards, Sellers, Heading } from '../../../components';
+import { ListingCards, Sellers, Heading } from '../../components';
 import './Listing.scss';
 
 const { listingsHeading, listingCards, topSellers, featuredSellers } =
-  await import('../../../shared/data');
+  await import('../../shared/data');
 
 const Listing = (): JSX.Element => {
   return (
