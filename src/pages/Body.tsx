@@ -1,11 +1,11 @@
-/* 
-** do not import templates with await import
-** causes blank page on production
-*/
+import { BodyProps } from '../shared/types/Body/bodyTypes';
+import { Data } from '../shared/types/SideBar/sideBarTypes';
 import { Top, Listing, Activity } from '../templates';
 import './Body.scss';
 
-const Body = () => {
+const Body = (props: Data<BodyProps>) => {
+  const [topData] = props.data;
+
   return (
     <div className='mainContent'>
       <Top />
