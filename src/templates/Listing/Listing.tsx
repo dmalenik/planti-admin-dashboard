@@ -1,27 +1,18 @@
+import type { Data } from '../../shared/types/SideBar/sideBarTypes';
+import type { ListingProps } from '../../shared/types/Listing/listingTypes';
 import { ListingCards, Sellers, Heading } from '../../components';
 import './Listing.scss';
 
-const { listingsHeading, listingCards, topSellers, featuredSellers } =
-  await import('../../shared/data');
+const Listing = (props: Data<ListingProps>): JSX.Element => {
+  const [heading, listingCards, topSellers, featuredSellers] = props.data;
 
-const Listing = (): JSX.Element => {
   return (
     <div className='listingSection'>
-      <Heading title={listingsHeading.title} action={listingsHeading.action} />
-      <ListingCards items={listingCards} />
+      <Heading params={heading} />
+      <ListingCards params={listingCards} />
       <div className='sellers flex'>
-        <Sellers
-          id={topSellers.id}
-          type={topSellers.type}
-          heading={topSellers.heading}
-          card={topSellers.card}
-        />
-        <Sellers
-          id={featuredSellers.id}
-          type={featuredSellers.type}
-          heading={featuredSellers.heading}
-          card={featuredSellers.card}
-        />
+        <Sellers params={topSellers} />
+        <Sellers params={featuredSellers} />
       </div>
     </div>
   );

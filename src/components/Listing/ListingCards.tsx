@@ -1,10 +1,8 @@
-import type {
-  listingCardsProps,
-  listingCardsArrProps,
-} from '../../shared/types';
+import type { Params } from '../../shared/types/SideBar/sideBarTypes';
+import type { ListingCardsProps } from '../../shared/types/Listing/listingTypes';
 
-const Cards = (props: listingCardsArrProps<listingCardsProps>): JSX.Element => {
-  const cardsArr: JSX.Element[] = props.items.map(
+const Cards = (props: Params<ListingCardsProps[]>): JSX.Element => {
+  const cardsArr: JSX.Element[] = props.params.map(
     ({ id, icon, img, title }): JSX.Element => {
       return (
         <div key={id} className='singleItem flex'>

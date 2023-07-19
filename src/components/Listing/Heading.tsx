@@ -1,11 +1,14 @@
-import type { HeadingProps } from '../../shared/types';
+import type { Params } from '../../shared/types/SideBar/sideBarTypes';
+import type { HeadingProps } from '../../shared/types/Listing/listingTypes';
 
-const Heading = (props: HeadingProps): JSX.Element => {
+const Heading = (props: Params<HeadingProps>): JSX.Element => {
+  const { title, action } = props.params;
+
   return (
     <div className='heading flex'>
-      <h1>{props.title.text}</h1>
+      <h1>{title.text}</h1>
       <button className='btn flex'>
-        {props.action.text} {props.action.icon}
+        {action.text} {action.icon}
       </button>
     </div>
   );

@@ -6,7 +6,7 @@ const { activityCards, activityHeading } = await import('../../shared/data');
 const Activity = (): JSX.Element => {
   return (
     <div className='activitySection'>
-      <Heading title={activityHeading.title} action={activityHeading.action} />
+      <Heading params={activityHeading} />
       <ActivityCards items={activityCards} />
     </div>
   );
