@@ -5,5 +5,4 @@ export {
   featuredSellers,
   topSellers,
 } from './Listing';
-export { helpCenter, quickMenu, settingsMenu } from './SideBar';
 export { adminBar, leftCard, rightCard } from './Top';

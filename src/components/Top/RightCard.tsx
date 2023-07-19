@@ -1,6 +1,6 @@
 import type { RightCardProps } from '../../shared/types';
 import HelpCenter from '../SideBar/HelpCenter';
-import { helpCenter } from '../../shared/data';
+import sideBarData from '../../shared/data/SideBar/sideBarData';
 
 const RightCard = (props: RightCardProps): JSX.Element => {
   return (
@@ -30,12 +30,7 @@ const RightCard = (props: RightCardProps): JSX.Element => {
           <img src={props.image.src} alt={props.image.alt} />
         </div>
       </div>
-      <HelpCenter
-        icon={helpCenter.icon}
-        title={helpCenter.title}
-        description={helpCenter.description}
-        btnText={helpCenter.btnText}
-      />
+      <HelpCenter params={sideBarData[2]} />
     </div>
   );
 };
