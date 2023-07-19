@@ -1,25 +1,28 @@
-import type { AdminBarProps } from '../../shared/types';
+import type { Params } from '../../shared/types/SideBar/sideBarTypes';
+import type { AdminBarProps } from '../../shared/types/Top/topTypes';
 
-const AdminBar = (props: AdminBarProps): JSX.Element => {
+const AdminBar = (props: Params<AdminBarProps>): JSX.Element => {
+  const { title, searchBar, adminDiv } = props.params;
+
   return (
     <div className='headerSection flex'>
       <div className='title'>
-        <h1>{props.title.heading}</h1>
-        <p>{props.title.description}</p>
+        <h1>{title.heading}</h1>
+        <p>{title.description}</p>
       </div>
       <div className='searchBar flex'>
         <input
-          type={props.searchBar.type}
-          name={props.searchBar.name}
-          id={props.searchBar.id}
+          type={searchBar.type}
+          name={searchBar.name}
+          id={searchBar.id}
           placeholder='Search Dashboard'
         />
-        {props.searchBar.icon}
+        {searchBar.icon}
       </div>
       <div className='adminDiv flex'>
-        {props.adminDiv.icons.map((icon) => icon)}
+        {adminDiv.icons.map((icon) => icon)}
         <div className='adminImage'>
-          <img src={props.adminDiv.img.src} alt={props.adminDiv.img.alt} />
+          <img src={adminDiv.img.src} alt={adminDiv.img.alt} />
         </div>
       </div>
     </div>

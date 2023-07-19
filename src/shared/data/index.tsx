@@ -1,8 +1,7 @@
-export { activityCards, activityHeading } from './Activity';
+export { activityCards, activityHeading } from './Body/Activity';
 export {
   listingsHeading,
   listingCards,
   featuredSellers,
   topSellers,
-} from './Listing';
-export { adminBar, leftCard, rightCard } from './Top';
+} from './Body/Listing';

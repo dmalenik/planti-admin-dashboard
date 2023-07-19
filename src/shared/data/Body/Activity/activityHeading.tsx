@@ -1,4 +1,4 @@
-import type { HeadingProps } from '../../types';
+import type { HeadingProps } from '../../../types';
 
 const { BsArrowRightShort } = await import('react-icons/bs');
 

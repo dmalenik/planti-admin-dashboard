@@ -1,3 +1,7 @@
+/*
+ ** do not import templates with await import
+ ** causes blank page on production
+ */
 import { BodyProps } from '../shared/types/Body/bodyTypes';
 import { Data } from '../shared/types/SideBar/sideBarTypes';
 import { Top, Listing, Activity } from '../templates';
@@ -8,7 +12,7 @@ const Body = (props: Data<BodyProps>) => {
 
   return (
     <div className='mainContent'>
-      <Top />
+      <Top data={topData} />
       <div className='bottom flex'>
         <Listing />
         <Activity />

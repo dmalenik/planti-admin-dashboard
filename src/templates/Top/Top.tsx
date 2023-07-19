@@ -1,24 +1,17 @@
+import { Data } from '../../shared/types/SideBar/sideBarTypes';
+import { TopProps } from '../../shared/types/Top/topTypes';
 import { AdminBar, LeftCard, RightCard } from '../../components';
 import './Top.scss';
 
-const { adminBar, rightCard, leftCard } = await import('../../shared/data');
+const Top = (props: Data<TopProps>): JSX.Element => {
+  const [adminBar, leftCard, rightCard] = props.data;
 
-const Top = (): JSX.Element => {
   return (
     <div className='topSection'>
-      <AdminBar
-        title={adminBar.title}
-        searchBar={adminBar.searchBar}
-        adminDiv={adminBar.adminDiv}
-      />
+      <AdminBar params={adminBar} />
       <div className='cardSection flex'>
-        <LeftCard
-          title={leftCard.title}
-          description={leftCard.description}
-          actions={leftCard.actions}
-          video={leftCard.video}
-        />
-        <RightCard text={rightCard.text} image={rightCard.image} />
+        <LeftCard params={leftCard} />
+        <RightCard params={rightCard} />
       </div>
     </div>
   );

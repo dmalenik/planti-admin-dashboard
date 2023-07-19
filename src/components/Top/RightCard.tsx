@@ -1,33 +1,34 @@
-import type { RightCardProps } from '../../shared/types';
+import type { Params } from '../../shared/types/SideBar/sideBarTypes';
+import type { RightCardProps } from '../../shared/types/Top/topTypes';
 import HelpCenter from '../SideBar/HelpCenter';
 import sideBarData from '../../shared/data/SideBar/sideBarData';
 
-const RightCard = (props: RightCardProps): JSX.Element => {
+const RightCard = (props: Params<RightCardProps>): JSX.Element => {
+  const { heading, stats, link, img } = props.params;
+
   return (
     <div className='rightCard flex'>
       <div className='main flex'>
         <div className='textDiv'>
-          <h1>{props.text.heading}</h1>
+          <h1>{heading}</h1>
           <div className='flex'>
-            {props.text.stats.map(
-              ({ id, type, date, quantity }): JSX.Element => {
-                return (
-                  <span key={id}>
-                    {date} <br />
-                    <small>
-                      {quantity} {type}
-                    </small>
-                  </span>
-                );
-              }
-            )}
+            {stats.map(({ id, date, quantity, type }): JSX.Element => {
+              return (
+                <span key={id}>
+                  {date} <br />
+                  <small>
+                    {quantity} {type}
+                  </small>
+                </span>
+              );
+            })}
           </div>
           <span className='flex link'>
-            {props.text.link.action} {props.text.link.icon}
+            {link.action} {link.icon}
           </span>
         </div>
         <div className='imageDiv'>
-          <img src={props.image.src} alt={props.image.alt} />
+          <img src={img.src} alt={img.alt} />
         </div>
       </div>
       <HelpCenter params={sideBarData[2]} />

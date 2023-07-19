@@ -1,9 +1,9 @@
-import type { SellerProps, HeadingProps } from '../../types';
-import getUID from '../../../utils/getUID';
+import type { SellerProps, HeadingProps } from '../../../types';
+import getUID from '../../../../utils/getUID';
 
-import plantsAndWaterfallImg from '../../assets/Listing/42kb/webp/topsellers-waterfall.webp';
-import flowersAndMountainsImg from '../../assets/Listing/42kb/webp/topsellers-mountains_and_flowers.webp';
-import someImg2 from '../../assets/Listing/42kb/webp/topsellers-flowers.webp';
+import plantsAndWaterfallImg from '../../../assets/Listing/42kb/webp/topsellers-waterfall.webp';
+import flowersAndMountainsImg from '../../../assets/Listing/42kb/webp/topsellers-mountains_and_flowers.webp';
+import someImg2 from '../../../assets/Listing/42kb/webp/topsellers-flowers.webp';
 
 const { BsArrowRightShort } = await import('react-icons/bs');
 

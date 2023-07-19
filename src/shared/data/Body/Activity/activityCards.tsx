@@ -1,9 +1,9 @@
-import type { activityCardsProps } from '../../types';
-import getUID from '../../../utils/getUID';
+import type { activityCardsProps } from '../../../types';
+import getUID from '../../../../utils/getUID';
 
-import sunAndPlantsImg from '../../assets/Activity/42kb/webp/activitycards-sun_and_plants.webp';
-import someImg1 from '../../assets/Activity/42kb/webp/activitycards-leaf.webp';
-import someImg2 from '../../assets/Activity/42kb/webp/activitycards-leaves.webp';
+import sunAndPlantsImg from '../../../assets/Activity/42kb/webp/activitycards-sun_and_plants.webp';
+import someImg1 from '../../../assets/Activity/42kb/webp/activitycards-leaf.webp';
+import someImg2 from '../../../assets/Activity/42kb/webp/activitycards-leaves.webp';
 
 const UIDArr: string[] = getUID(3);
 
