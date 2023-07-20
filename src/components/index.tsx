@@ -1,4 +1,9 @@
-export { ActivityCards } from './Activity';
-export { Heading, ListingCards, Sellers } from './Listing';
-export { Menu, HelpCenter } from './SideBar';
-export { AdminBar, LeftCard, RightCard } from './Top';
+export { default as Customers } from './Customers';
+export { default as AdminBar } from './AdminBar';
+export { default as Heading } from './Heading';
+export { default as HelpCenter } from './HelpCenter';
+export { default as LeftCard } from './LeftCard';
+export { default as Cards } from './Cards';
+export { default as Menu } from './Menu';
+export { default as RightCard } from './RightCard';
+export { default as Sellers } from './Sellers';
