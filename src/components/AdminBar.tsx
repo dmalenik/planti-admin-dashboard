@@ -1,5 +1,4 @@
-import type { Params } from '../../shared/types/SideBar/sideBarTypes';
-import type { AdminBarProps } from '../../shared/types/Top/topTypes';
+import type { Params, AdminBarProps } from '../shared/types';
 
 const AdminBar = (props: Params<AdminBarProps>): JSX.Element => {
   const { title, searchBar, adminDiv } = props.params;

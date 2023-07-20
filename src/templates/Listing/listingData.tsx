@@ -1,18 +1,10 @@
 import type {
   ListingProps,
-  HeadingProps,
   ListingCardsProps,
   SellerProps,
-} from '../../../types/Listing/listingTypes';
-
-import getUID from '../../../../utils/getUID';
-
-import leavesImg from '../../../assets/Listing/42kb/webp/listingcards-annual_vince.webp';
-import palacePlantsImg from '../../../assets/Listing/42kb/webp/listingcards-palace_and_plants.webp';
-import mointainsViewImg from '../../../assets/Listing/42kb/webp/listingcards-mountains_view.webp';
-import plantsAndWaterfallImg from '../../../assets/Listing/42kb/webp/topsellers-waterfall.webp';
-import flowersAndMountainsImg from '../../../assets/Listing/42kb/webp/topsellers-mountains_and_flowers.webp';
-import someImg2 from '../../../assets/Listing/42kb/webp/topsellers-flowers.webp';
+  HeadingProps,
+} from '../../shared/types';
+import { getUID } from '../../shared/utils';
 
 const { BsArrowRightShort } = await import('react-icons/bs');
 const { AiFillHeart, AiOutlineHeart } = await import('react-icons/ai');
@@ -31,19 +23,22 @@ const listingCards: ListingCardsProps[] = [
   {
     id: UIDArr[0],
     icon: <AiFillHeart className='icon' />,
-    img: { src: leavesImg, alt: 'Annual Vince' },
+    img: { src: '/listingcards-annual_vince.webp', alt: 'Annual Vince' },
     title: 'Annual Vince',
   },
   {
     id: UIDArr[1],
     icon: <AiOutlineHeart className='icon' />,
-    img: { src: palacePlantsImg, alt: 'Palace and Plants' },
+    img: {
+      src: '/listingcards-palace_and_plants.webp',
+      alt: 'Palace and Plants',
+    },
     title: 'Palace and Plants',
   },
   {
     id: UIDArr[2],
     icon: <AiFillHeart className='icon' />,
-    img: { src: mointainsViewImg, alt: 'Mountains View' },
+    img: { src: '/listingcards-mountains_view.webp', alt: 'Mountains View' },
     title: 'Mountains View',
   },
 ];
@@ -62,17 +57,17 @@ const topSellers: SellerProps<HeadingProps> = {
     users: [
       {
         id: UIDArr[8],
-        src: plantsAndWaterfallImg,
+        src: '/topsellers-waterfall.webp',
         alt: 'Plants and Waterfall',
       },
       {
         id: UIDArr[9],
-        src: flowersAndMountainsImg,
+        src: '/topsellers-mountains_and_flowers.webp',
         alt: 'Flowers and Mountains',
       },
       {
         id: UIDArr[10],
-        src: someImg2,
+        src: '/topsellers-flowers.webp',
         alt: 'Some Img 2',
       },
     ],
@@ -108,17 +103,17 @@ const featuredSellers: SellerProps<HeadingProps> = {
     users: [
       {
         id: UIDArr[4],
-        src: plantsAndWaterfallImg,
+        src: '/topsellers-waterfall.webp',
         alt: 'Plants and Waterfall',
       },
       {
         id: UIDArr[5],
-        src: flowersAndMountainsImg,
+        src: '/topsellers-mountains_and_flowers.webp',
         alt: 'Flowers and Mountains',
       },
       {
         id: UIDArr[6],
-        src: someImg2,
+        src: '/topsellers-flowers.webp',
         alt: 'Some Img 2',
       },
     ],

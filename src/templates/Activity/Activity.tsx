@@ -1,13 +1,14 @@
-import { ActivityCards, Heading } from '../../components';
+import type { Data, ActivityProps } from '../../shared/types';
+import { Customers, Heading } from '../../components';
 import './Activity.scss';
 
-const { activityCards, activityHeading } = await import('../../shared/data');
+const Activity = (props: Data<ActivityProps>): JSX.Element => {
+  const [activityHeading, activityCards] = props.data;
 
-const Activity = (): JSX.Element => {
   return (
     <div className='activitySection'>
       <Heading params={activityHeading} />
-      <ActivityCards items={activityCards} />
+      <Customers params={activityCards} />
     </div>
   );
 };

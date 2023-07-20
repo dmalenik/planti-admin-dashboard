@@ -1,15 +1,6 @@
 import { ReactElement } from 'react';
 import type { IconType } from 'react-icons';
-
-interface HeadingProps {
-  title: {
-    text: string;
-  };
-  action: {
-    text: string;
-    icon: ReactElement<IconType>;
-  };
-}
+import type { HeadingProps } from '.';
 
 interface ListingCardsProps {
   id: string;
@@ -52,4 +43,4 @@ type ListingProps = [
   SellerProps<HeadingProps>
 ];
 
-export type { ListingProps, HeadingProps, ListingCardsProps, SellerProps };
+export type { ListingProps, ListingCardsProps, SellerProps };

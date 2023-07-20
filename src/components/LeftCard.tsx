@@ -1,5 +1,4 @@
-import type { Params } from '../../shared/types/SideBar/sideBarTypes';
-import type { LeftCardProps } from '../../shared/types/Top/topTypes';
+import type { Params, LeftCardProps } from '../shared/types';
 
 const LeftCard = (props: Params<LeftCardProps>): JSX.Element => {
   const { title, actions, video } = props.params;

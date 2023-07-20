@@ -1,5 +1,4 @@
-import type { Params } from '../../shared/types/SideBar/sideBarTypes';
-import type { SellerProps, HeadingProps } from '../../shared/types';
+import type { Params, HeadingProps, SellerProps } from '../shared/types';
 
 export const Sellers = (
   props: Params<SellerProps<HeadingProps>>

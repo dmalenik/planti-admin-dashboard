@@ -1,12 +1,7 @@
-import type {
-  activityCardsProps,
-  activityCardsArrProps,
-} from '../../shared/types';
+import type { Params, ActivityCardsProps } from '../shared/types';
 
-const Cards = (
-  props: activityCardsArrProps<activityCardsProps>
-): JSX.Element => {
-  const customers: JSX.Element[] = props.items.map(
+const Customers = (props: Params<ActivityCardsProps[]>): JSX.Element => {
+  const customersArr: JSX.Element[] = props.params.map(
     ({ id, portrait, details, duration }): JSX.Element => {
       return (
         <div key={id} className='singleCustomer flex'>
@@ -21,7 +16,7 @@ const Cards = (
     }
   );
 
-  return <div className='secContainer grid'>{customers}</div>;
+  return <div className='secContainer grid'>{customersArr}</div>;
 };
 
-export default Cards;
+export default Customers;

@@ -1,5 +1,4 @@
-import type { Params } from '../../shared/types/SideBar/sideBarTypes';
-import type { HeadingProps } from '../../shared/types/Listing/listingTypes';
+import type { Params, HeadingProps } from '../shared/types';
 
 const Heading = (props: Params<HeadingProps>): JSX.Element => {
   const { title, action } = props.params;

@@ -1,7 +1,6 @@
-import type { Params } from '../../shared/types/SideBar/sideBarTypes';
-import type { RightCardProps } from '../../shared/types/Top/topTypes';
-import HelpCenter from '../SideBar/HelpCenter';
-import sideBarData from '../../shared/data/SideBar/sideBarData';
+import type { Params, RightCardProps } from '../shared/types';
+import HelpCenter from './HelpCenter';
+import sideBarData from '../templates/SideBar/sideBarData';
 
 const RightCard = (props: Params<RightCardProps>): JSX.Element => {
   const { heading, stats, link, img } = props.params;

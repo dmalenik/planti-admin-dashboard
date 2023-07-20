@@ -1,5 +1,4 @@
-import type { Params } from '../../shared/types/SideBar/sideBarTypes';
-import type { ListingCardsProps } from '../../shared/types/Listing/listingTypes';
+import type { Params, ListingCardsProps } from '../shared/types';
 
 const Cards = (props: Params<ListingCardsProps[]>): JSX.Element => {
   const cardsArr: JSX.Element[] = props.params.map(

@@ -1,11 +1,5 @@
-import type { TopProps } from '../../../types/Top/topTypes';
-
-import getUID from '../../../../utils/getUID';
-
-import adminImage from '../../../assets/Top/42kb/webp/adminbar-admin.webp';
-import rainyVideo from '../../../assets/Top/crop_720/rainyVideo_crop_720.mp4';
-import rainyVideoPoster from '../../../assets/Top/rainyVideoPoster.webp';
-import flowerImage from '../../../assets/Top/42kb/webp/rightcard-flower.webp';
+import type { TopProps } from '../../shared/types/topTypes';
+import { getUID } from '../../shared/utils';
 
 const { BiSearchAlt } = await import('react-icons/bi');
 const { TbMessageCircle } = await import('react-icons/tb');
@@ -31,7 +25,7 @@ const topData: TopProps = [
         <TbMessageCircle className='icon' key={UIDArr[0]} />,
         <IoMdNotificationsOutline className='icon' key={UIDArr[1]} />,
       ],
-      img: { src: adminImage, alt: 'Admin Image' },
+      img: { src: '/adminbar-admin.webp', alt: 'Admin Image' },
     },
   },
   {
@@ -44,7 +38,10 @@ const topData: TopProps = [
       action1: 'Exlore More',
       action2: 'Top Sellers',
     },
-    video: { src: rainyVideo, poster: rainyVideoPoster },
+    video: {
+      src: '/rainyVideo_crop_720.mp4',
+      poster: '/rainyVideoPoster.webp',
+    },
   },
   {
     heading: 'My Stats',
@@ -67,7 +64,7 @@ const topData: TopProps = [
       icon: <BsArrowRightShort className='icon' />,
     },
     img: {
-      src: flowerImage,
+      src: '/rightcard-flower.webp',
       alt: 'Flowers Image',
     },
   },

@@ -1,6 +1,6 @@
 import { Body } from './pages';
 import { SideBar } from './templates';
-import sideBarData from './shared/data/SideBar/sideBarData';
+import bodyData from './pages/bodyData';
 import bodyData from './shared/data/Body/bodyData';
 import './App.scss';
 

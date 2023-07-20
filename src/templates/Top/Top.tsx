@@ -1,5 +1,4 @@
-import { Data } from '../../shared/types/SideBar/sideBarTypes';
-import { TopProps } from '../../shared/types/Top/topTypes';
+import type { Data, TopProps } from '../../shared/types';
 import { AdminBar, LeftCard, RightCard } from '../../components';
 import './Top.scss';
 
