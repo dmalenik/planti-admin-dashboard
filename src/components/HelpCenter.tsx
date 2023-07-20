@@ -1,7 +1,4 @@
-import type {
-  HelpCenterProps,
-  Params,
-} from '../../shared/types/SideBar/sideBarTypes';
+import type { Params, HelpCenterProps } from '../shared/types';
 
 const HelpCenter = (props: Params<HelpCenterProps>): JSX.Element => {
   const { icon, title, description, btnText } = props.params;

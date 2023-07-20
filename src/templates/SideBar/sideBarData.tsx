@@ -1,5 +1,5 @@
-import type { SideBarProps } from '../../types/SideBar/sideBarTypes';
-import getUID from '../../../utils/getUID';
+import type { SideBarProps } from '../../shared/types/sideBarTypes';
+import { getUID } from '../../shared/utils';
 
 const { IoMdSpeedometer } = await import('react-icons/io');
 const { MdDeliveryDining, MdOutlineExplore, MdOutlinePermContactCalendar } =

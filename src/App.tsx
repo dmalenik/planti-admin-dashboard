@@ -1,7 +1,7 @@
 import { Body } from './pages';
 import { SideBar } from './templates';
 import bodyData from './pages/bodyData';
-import bodyData from './shared/data/Body/bodyData';
+import sideBarData from './templates/SideBar/sideBarData';
 import './App.scss';
 
 const App = (): JSX.Element => {

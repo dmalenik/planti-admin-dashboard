@@ -20,12 +20,4 @@ interface HelpCenterProps {
 
 type SideBarProps = [MenuProps, MenuProps, HelpCenterProps];
 
-interface Data<T> {
-  data: T;
-}
-
-interface Params<T> {
-  params: T;
-}
-
-export type { SideBarProps, Data, MenuProps, HelpCenterProps, Params };
+export type { SideBarProps, MenuProps, HelpCenterProps };
