@@ -15,8 +15,13 @@ export default defineConfig({
       output: {
         manualChunks: {
           reactIcons: ['react-icons'],
-          dashboardData: ['./src/shared/data/'],
-          bodyTemplates: ['./src/templates/Body/'],
+          data: [
+            'bodyData.tsx',
+            'sideBarData.tsx',
+            'topData.tsx',
+            'listingData.tsx',
+            'activityData.tsx',
+          ],
         },
       },
     },
