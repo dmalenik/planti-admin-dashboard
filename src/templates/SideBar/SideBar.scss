@@ -22,7 +22,7 @@
 
     h2 {
       font-size: vars.$h2-font-size;
-      color: vars.$primary-color;
+      color: vars.$logo-color;
     }
   }
 
@@ -54,7 +54,7 @@
 
         .menuLink {
           font-weight: 500;
-          color: vars.$grey-text;
+          color: vars.$grey-text-89;
 
           .icon {
             margin-right: 0.5rem;
@@ -134,12 +134,12 @@
         padding-bottom: 1rem;
         font-size: vars.$normal-font-size;
         font-weight: 500;
-        color: vars.$text-color;
+        color: vars.$text-color-71;
       }
 
       .btn {
         position: relative;
-        color: vars.$text-color;
+        color: vars.$text-color-71;
         z-index: 1000;
       }
     }
