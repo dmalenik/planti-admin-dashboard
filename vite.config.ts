@@ -13,14 +13,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          reactIcons: ["react-icons"],
-          data: [
-            "bodyData.tsx",
-            "sideBarData.tsx",
-            "topData.tsx",
-            "listingData.tsx",
-            "activityData.tsx",
-          ],
+          reactIcons: ["react-icons"]
         },
       },
     },
