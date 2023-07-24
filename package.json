@@ -8,8 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "prettier:check": "npx prettier --check .",
-    "prettier:format": "npx prettier --write ."
+    "prettier:check": "npx prettier --check ./src",
+    "prettier:format": "npx prettier --write ./src"
   },
   "dependencies": {
     "react": "^18.2.0",

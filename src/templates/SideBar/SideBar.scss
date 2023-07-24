@@ -1,4 +1,4 @@
-@use '../../shared/styles/vars';
+@use "../../shared/styles/vars";
 
 .sideBar {
   gap: 1.5rem;
@@ -45,7 +45,7 @@
           height: 0;
           border-top-right-radius: 10px;
           border-bottom-right-radius: 10px;
-          content: '';
+          content: "";
           position: absolute;
           left: 0;
           bottom: 0;

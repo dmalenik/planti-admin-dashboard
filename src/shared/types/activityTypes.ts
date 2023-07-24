@@ -1,4 +1,4 @@
-import type { HeadingProps } from '.';
+import type { HeadingProps } from ".";
 
 interface ActivityCardsProps {
   id: string;

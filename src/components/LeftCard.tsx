@@ -1,17 +1,17 @@
-import type { Params, LeftCardProps } from '../shared/types';
+import type { Params, LeftCardProps } from "../shared/types";
 
 const LeftCard = (props: Params<LeftCardProps>): JSX.Element => {
   const { title, actions, video } = props.params;
 
   return (
-    <div className='leftCard flex'>
+    <div className="leftCard flex">
       <h1>{title.heading}</h1>
       <p>{title.description}</p>
-      <div className='buttons flex'>
-        <button className='btn'>{actions.action1}</button>
-        <button className='btn transparent'>{actions.action2}</button>
+      <div className="buttons flex">
+        <button className="btn">{actions.action1}</button>
+        <button className="btn transparent">{actions.action2}</button>
       </div>
-      <div className='videoDiv'>
+      <div className="videoDiv">
         <video
           src={video.src}
           poster={video.poster}

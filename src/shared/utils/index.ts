@@ -1,1 +1,1 @@
-export { default as getUID } from './getUID';
+export { default as getUID } from "./getUID";

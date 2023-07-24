@@ -1,5 +1,5 @@
-import { ReactElement } from 'react';
-import type { IconType } from 'react-icons';
+import { ReactElement } from "react";
+import type { IconType } from "react-icons";
 
 interface HeadingProps {
   title: {

@@ -1,1 +1,571 @@
-.topSection .headerSection{justify-content:space-between}.topSection .headerSection .title h1{font-size:1.5rem;font-weight:700;color:#1a1a1a}.topSection .headerSection .title p{font-size:.938rem;font-weight:500;color:#79797c}.topSection .headerSection .searchBar{border-radius:5px;gap:1rem;padding:1rem 2rem;background:hsl(0,0%,100%);box-shadow:0 2px 4px #f8f6f7}.topSection .headerSection .searchBar input{border:none;outline:none;background:none}.topSection .headerSection .searchBar .icon{color:#79797c}.topSection .headerSection .searchBar .icon:hover{color:#528e25}.topSection .headerSection .adminDiv{gap:1rem}.topSection .headerSection .adminDiv .icon{padding:5px;border-radius:5px;font-size:2.5rem;color:#79797c;background:hsl(0,0%,100%);box-shadow:0 2px 4px #f8f6f7}.topSection .headerSection .adminDiv .adminImage{width:2.5rem;border:3px solid hsl(0,0%,100%);border-radius:10px;box-shadow:0 2px 4px #f8f6f7;overflow:hidden}.topSection .headerSection .adminDiv .adminImage img{width:100%;height:100%;border-radius:10px}.topSection .cardSection{margin-top:3rem}.topSection .cardSection .leftCard{height:200px;padding:2rem;border-radius:1rem;margin:auto;flex-direction:column;justify-content:center;align-items:flex-start;flex-basis:70%;position:relative;overflow:hidden}.topSection .cardSection .leftCard h1,.topSection .cardSection .leftCard p,.topSection .cardSection .leftCard .btn{z-index:100}.topSection .cardSection .leftCard h1{padding:1rem 1rem 0;font-size:1.5rem;font-weight:800;color:#fff}.topSection .cardSection .leftCard p{padding:1rem;font-weight:500;color:#dff8ce}.topSection .cardSection .leftCard .buttons{gap:1rem}.topSection .cardSection .leftCard .buttons .btn{padding:.8rem 1.5rem;border:2px solid transparent;color:#528e25;box-shadow:none}.topSection .cardSection .leftCard .buttons .transparent{border:2px solid hsl(96,75%,89%);background:none;color:#dff8ce}.topSection .cardSection .leftCard .buttons .transparent:hover{color:#528e25;background:hsl(96,75%,89%)}.topSection .cardSection .leftCard .videoDiv{width:100%;height:100%;position:absolute;inset:0}.topSection .cardSection .leftCard .videoDiv video{width:100%;height:100%;object-fit:cover}.topSection .cardSection .rightCard{flex-basis:30%}.topSection .cardSection .rightCard .main{height:200px;padding:1rem;border-radius:1rem;justify-content:space-between;position:relative;gap:1rem}.topSection .cardSection .rightCard .main:before{content:"";width:75%;height:100%;border-radius:1rem;position:absolute;left:0;bottom:0;background:hsl(96,75%,89%)}.topSection .cardSection .rightCard .main .textDiv{z-index:100}.topSection .cardSection .rightCard .main .textDiv h1{padding-bottom:1rem;font-size:1.5rem;color:#1a1a1a}.topSection .cardSection .rightCard .main .textDiv .flex{font-weight:500;gap:1.5rem;color:#1a1a1a}.topSection .cardSection .rightCard .main .textDiv .flex small{padding:.5rem 0;display:block;font-size:.938rem;font-weight:500;color:#528e25}.topSection .cardSection .rightCard .main .textDiv .link{margin-top:2rem;cursor:pointer}.topSection .cardSection .rightCard .main .textDiv .link:hover{color:#528e25}.topSection .cardSection .rightCard .main .textDiv .link:hover .icon{transform:translate(10px);transition:.3s ease}.topSection .cardSection .rightCard .main .imageDiv{transform:translateY(-1px)}.topSection .cardSection .rightCard .main .imageDiv img{width:175px}.topSection .cardSection .rightCard .sideBarCard{display:none;width:100%;padding:1rem;position:relative;text-align:center}.topSection .cardSection .rightCard .sideBarCard .icon{border:10px solid hsl(0,0%,100%);border-radius:50%;position:absolute;top:-8px;right:50%;z-index:100;font-size:3rem;background:#bdf094;transform:translate(50%)}.topSection .cardSection .rightCard .sideBarCard .cardContent{padding:1rem;border-radius:10px;position:relative;background:#bdf094;overflow:hidden}.topSection .cardSection .rightCard .sideBarCard .cardContent .circle1,.topSection .cardSection .rightCard .sideBarCard .cardContent .circle2{border-radius:50%;position:absolute;background:hsl(96,75%,89%);opacity:.7}.topSection .cardSection .rightCard .sideBarCard .cardContent .circle1{width:100px;height:100px;top:-50px;left:-50px}.topSection .cardSection .rightCard .sideBarCard .cardContent .circle2{width:150px;height:150px;bottom:-80px;right:-70px;z-index:1}.topSection .cardSection .rightCard .sideBarCard .cardContent h3{padding:1rem 0;margin-top:1rem;font-size:1rem;font-weight:800;color:#1a1a1a}.topSection .cardSection .rightCard .sideBarCard .cardContent p{padding-bottom:1rem;font-size:.938rem;font-weight:500;color:#79797c}.topSection .cardSection .rightCard .sideBarCard .cardContent .btn{position:relative;color:#79797c;z-index:1000}@media screen and (max-width: 990px){.topSection .cardSection{flex-direction:column}.topSection .cardSection .rightCard,.topSection .cardSection .leftCard{width:100%;flex-basis:100%}.topSection .cardSection .rightCard{margin-top:1rem;align-self:flex-start}.topSection .cardSection .rightCard .sideBarCard{display:block}}@media screen and (max-width: 920px){.topSection .headerSection .searchBar{display:none}}@media screen and (max-width: 725px){.topSection .cardSection .rightCard .main{width:100%}.topSection .cardSection .rightCard .sideBarCard{display:none}}@media screen and (max-width: 490px){.topSection .headerSection .title{margin:auto;text-align:center}.topSection .headerSection .adminDiv{display:none}.topSection .cardSection .leftCard{text-align:center}.topSection .cardSection .leftCard .buttons{width:80%;margin:auto;flex-direction:column}.topSection .cardSection .leftCard .buttons .btn{width:100%}.topSection .cardSection .rightCard .main{background:hsl(96,75%,89%)}.topSection .cardSection .rightCard .main .textDiv{margin:auto}.topSection .cardSection .rightCard .main .imageDiv{display:none}}@media screen and (max-width: 390px){.topSection .cardSection .leftCard{padding:2rem 1rem}.topSection .cardSection .leftCard h1{font-size:1.25rem}}.listingSection{flex-basis:75%}.listingSection .heading{width:100%;justify-content:space-between}.listingSection .heading h1{font-size:1.25rem;font-weight:700;color:#1a1a1a}.listingSection .heading .btn{border:1px solid transparent}.listingSection .heading .btn:hover{border:1px solid hsl(94,59%,35%)}.listingSection .secContainer{width:100%;margin:1rem 0;gap:1rem;flex-wrap:wrap;justify-content:space-between}.listingSection .secContainer .singleItem{width:150px;height:200px;padding:1rem;border-radius:10px;flex-direction:column;gap:.5rem 0;position:relative;background-color:#dfe2df}.listingSection .secContainer .singleItem:hover{background:hsl(120,27%,87%);box-shadow:0 2px 2px #f8f6f7}.listingSection .secContainer .singleItem .icon{position:absolute;top:-5px;right:-5px;color:#528e25;z-index:12}.listingSection .secContainer .singleItem img{max-width:80%;height:80%;object-fit:cover}.listingSection .secContainer .singleItem h3{width:80%;font-size:1rem;text-align:center;color:#1a1a1a}.listingSection .sellers{width:100%;margin-top:1rem;justify-content:space-between;align-items:center;gap:0 1rem}.listingSection .sellers .topSellers,.listingSection .sellers .featuredSellers{flex-direction:column}.listingSection .sellers .topSellers .heading .btn,.listingSection .sellers .featuredSellers .heading .btn{padding:.5rem 1rem}.listingSection .sellers .topSellers .card,.listingSection .sellers .featuredSellers .card{padding:1rem 1.5rem;border-radius:1rem;margin-top:.25rem;gap:1rem;background:hsl(0,0%,100%);box-shadow:0 2px 4px #f8f6f7}.listingSection .sellers .topSellers .card .users,.listingSection .sellers .featuredSellers .card .users{padding-right:1rem;border-right:2px solid rgb(190,190,190)}.listingSection .sellers .topSellers .card .users img,.listingSection .sellers .featuredSellers .card .users img{width:30px;height:30px;border:2px solid hsl(330,12%,97%);border-radius:50%;object-fit:cover}.listingSection .sellers .topSellers .card .users img:hover,.listingSection .sellers .featuredSellers .card .users img:hover{transition:.5s ease;transform:translateY(-10px)}.listingSection .sellers .topSellers .card .cardText span,.listingSection .sellers .featuredSellers .card .cardText span{font-weight:500;color:#1a1a1a}.listingSection .sellers .topSellers .card .cardText small,.listingSection .sellers .featuredSellers .card .cardText small{font-weight:400}.listingSection .sellers .topSellers .card .cardText small .date,.listingSection .sellers .featuredSellers .card .cardText small .date{margin-left:1rem}@media screen and (max-width: 990px){.listingSection{flex-basis:50%}.listingSection .sellers .topSellers .heading .btn,.listingSection .sellers .featuredSellers .heading .btn{margin-left:0}.listingSection .sellers .topSellers .card,.listingSection .sellers .featuredSellers .card{padding:1rem;flex-direction:column}}@media screen and (max-width: 918px){.listingSection{width:100%}.listingSection .secContainer{flex-wrap:nowrap}.listingSection .secContainer .singleItem{width:180px}.listingSection .sellers .topSellers,.listingSection .sellers .featuredSellers{width:50%}.listingSection .sellers .topSellers .heading,.listingSection .sellers .featuredSellers .heading{padding:1rem 0}.listingSection .sellers .topSellers .card,.listingSection .sellers .featuredSellers .card{width:100%;flex-direction:row;align-self:flex-start;justify-content:space-between}.listingSection .sellers .topSellers .card .cardText small .date,.listingSection .sellers .featuredSellers .card .cardText small .date{margin-left:.35rem}}@media screen and (max-width: 560px){.listingSection .secContainer,.listingSection .sellers .topSellers .card,.listingSection .sellers .featuredSellers .card{flex-direction:column}.listingSection .sellers .topSellers .card .cardText small .date,.listingSection .sellers .featuredSellers .card .cardText small .date{margin-left:2rem}}@media screen and (max-width: 495px){.listingSection .heading h1{padding:.5rem 0}.listingSection .sellers{flex-direction:column;align-items:center}.listingSection .sellers .topSellers,.listingSection .sellers .featuredSellers{width:100%}.listingSection .sellers .topSellers .heading h3,.listingSection .sellers .featuredSellers .heading h3{padding:.5rem 0}.listingSection .sellers .topSellers .card,.listingSection .sellers .featuredSellers .card{flex-direction:row;justify-content:space-between}.listingSection .sellers .topSellers .card .users,.listingSection .sellers .topSellers .card .cardText,.listingSection .sellers .featuredSellers .card .users,.listingSection .sellers .featuredSellers .card .cardText{width:50%}.listingSection .sellers .topSellers .card .users small .date,.listingSection .sellers .topSellers .card .cardText small .date,.listingSection .sellers .featuredSellers .card .users small .date,.listingSection .sellers .featuredSellers .card .cardText small .date{margin-left:.25rem}}.activitySection{flex-basis:25%}.activitySection .heading{width:100%;justify-content:space-between}.activitySection .heading h1{font-size:1.25rem;font-weight:700;color:#1a1a1a}.activitySection .heading .btn{border:1px solid transparent}.activitySection .heading .btn:hover{border:1px solid hsl(94,59%,35%)}.activitySection .secContainer{margin-top:1rem}.activitySection .secContainer .singleCustomer{align-items:flex-start;justify-content:space-between}.activitySection .secContainer .singleCustomer img{width:40px;height:40px;border-radius:50%;margin-right:1rem;object-fit:cover;box-shadow:0 2px 4px #dfe2df}.activitySection .secContainer .singleCustomer .customerDetails{flex:1}.activitySection .secContainer .singleCustomer .customerDetails .name{font-size:1rem;font-weight:600;color:#1a1a1a;display:block}.activitySection .secContainer .singleCustomer .customerDetails small{font-size:.813rem;font-weight:500;color:#79797c}.activitySection .secContainer .singleCustomer .duration{align-self:center;font-size:.75rem;font-weight:500;color:#79797c}@media screen and (max-width: 990px){.activitySection{flex-basis:50%}}@media screen and (max-width: 918px){.activitySection{width:100%}}@media screen and (max-width: 490px){.activitySection .heading h1{padding:.5rem 0}}
+.topSection .headerSection {
+  justify-content: space-between;
+}
+.topSection .headerSection .title h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.topSection .headerSection .title p {
+  font-size: 0.938rem;
+  font-weight: 500;
+  color: #79797c;
+}
+.topSection .headerSection .searchBar {
+  border-radius: 5px;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 4px #f8f6f7;
+}
+.topSection .headerSection .searchBar input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.topSection .headerSection .searchBar .icon {
+  color: #79797c;
+}
+.topSection .headerSection .searchBar .icon:hover {
+  color: #528e25;
+}
+.topSection .headerSection .adminDiv {
+  gap: 1rem;
+}
+.topSection .headerSection .adminDiv .icon {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  color: #79797c;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 4px #f8f6f7;
+}
+.topSection .headerSection .adminDiv .adminImage {
+  width: 2.5rem;
+  border: 3px solid hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px #f8f6f7;
+  overflow: hidden;
+}
+.topSection .headerSection .adminDiv .adminImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.topSection .cardSection {
+  margin-top: 3rem;
+}
+.topSection .cardSection .leftCard {
+  height: 200px;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-basis: 70%;
+  position: relative;
+  overflow: hidden;
+}
+.topSection .cardSection .leftCard h1,
+.topSection .cardSection .leftCard p,
+.topSection .cardSection .leftCard .btn {
+  z-index: 100;
+}
+.topSection .cardSection .leftCard h1 {
+  padding: 1rem 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+.topSection .cardSection .leftCard p {
+  padding: 1rem;
+  font-weight: 500;
+  color: #dff8ce;
+}
+.topSection .cardSection .leftCard .buttons {
+  gap: 1rem;
+}
+.topSection .cardSection .leftCard .buttons .btn {
+  padding: 0.8rem 1.5rem;
+  border: 2px solid transparent;
+  color: #528e25;
+  box-shadow: none;
+}
+.topSection .cardSection .leftCard .buttons .transparent {
+  border: 2px solid hsl(96, 75%, 89%);
+  background: none;
+  color: #dff8ce;
+}
+.topSection .cardSection .leftCard .buttons .transparent:hover {
+  color: #528e25;
+  background: hsl(96, 75%, 89%);
+}
+.topSection .cardSection .leftCard .videoDiv {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+.topSection .cardSection .leftCard .videoDiv video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.topSection .cardSection .rightCard {
+  flex-basis: 30%;
+}
+.topSection .cardSection .rightCard .main {
+  height: 200px;
+  padding: 1rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+  position: relative;
+  gap: 1rem;
+}
+.topSection .cardSection .rightCard .main:before {
+  content: "";
+  width: 75%;
+  height: 100%;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: hsl(96, 75%, 89%);
+}
+.topSection .cardSection .rightCard .main .textDiv {
+  z-index: 100;
+}
+.topSection .cardSection .rightCard .main .textDiv h1 {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #1a1a1a;
+}
+.topSection .cardSection .rightCard .main .textDiv .flex {
+  font-weight: 500;
+  gap: 1.5rem;
+  color: #1a1a1a;
+}
+.topSection .cardSection .rightCard .main .textDiv .flex small {
+  padding: 0.5rem 0;
+  display: block;
+  font-size: 0.938rem;
+  font-weight: 500;
+  color: #528e25;
+}
+.topSection .cardSection .rightCard .main .textDiv .link {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.topSection .cardSection .rightCard .main .textDiv .link:hover {
+  color: #528e25;
+}
+.topSection .cardSection .rightCard .main .textDiv .link:hover .icon {
+  transform: translate(10px);
+  transition: 0.3s ease;
+}
+.topSection .cardSection .rightCard .main .imageDiv {
+  transform: translateY(-1px);
+}
+.topSection .cardSection .rightCard .main .imageDiv img {
+  width: 175px;
+}
+.topSection .cardSection .rightCard .sideBarCard {
+  display: none;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+}
+.topSection .cardSection .rightCard .sideBarCard .icon {
+  border: 10px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: 50%;
+  z-index: 100;
+  font-size: 3rem;
+  background: #bdf094;
+  transform: translate(50%);
+}
+.topSection .cardSection .rightCard .sideBarCard .cardContent {
+  padding: 1rem;
+  border-radius: 10px;
+  position: relative;
+  background: #bdf094;
+  overflow: hidden;
+}
+.topSection .cardSection .rightCard .sideBarCard .cardContent .circle1,
+.topSection .cardSection .rightCard .sideBarCard .cardContent .circle2 {
+  border-radius: 50%;
+  position: absolute;
+  background: hsl(96, 75%, 89%);
+  opacity: 0.7;
+}
+.topSection .cardSection .rightCard .sideBarCard .cardContent .circle1 {
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: -50px;
+}
+.topSection .cardSection .rightCard .sideBarCard .cardContent .circle2 {
+  width: 150px;
+  height: 150px;
+  bottom: -80px;
+  right: -70px;
+  z-index: 1;
+}
+.topSection .cardSection .rightCard .sideBarCard .cardContent h3 {
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+.topSection .cardSection .rightCard .sideBarCard .cardContent p {
+  padding-bottom: 1rem;
+  font-size: 0.938rem;
+  font-weight: 500;
+  color: #79797c;
+}
+.topSection .cardSection .rightCard .sideBarCard .cardContent .btn {
+  position: relative;
+  color: #79797c;
+  z-index: 1000;
+}
+@media screen and (max-width: 990px) {
+  .topSection .cardSection {
+    flex-direction: column;
+  }
+  .topSection .cardSection .rightCard,
+  .topSection .cardSection .leftCard {
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .topSection .cardSection .rightCard {
+    margin-top: 1rem;
+    align-self: flex-start;
+  }
+  .topSection .cardSection .rightCard .sideBarCard {
+    display: block;
+  }
+}
+@media screen and (max-width: 920px) {
+  .topSection .headerSection .searchBar {
+    display: none;
+  }
+}
+@media screen and (max-width: 725px) {
+  .topSection .cardSection .rightCard .main {
+    width: 100%;
+  }
+  .topSection .cardSection .rightCard .sideBarCard {
+    display: none;
+  }
+}
+@media screen and (max-width: 490px) {
+  .topSection .headerSection .title {
+    margin: auto;
+    text-align: center;
+  }
+  .topSection .headerSection .adminDiv {
+    display: none;
+  }
+  .topSection .cardSection .leftCard {
+    text-align: center;
+  }
+  .topSection .cardSection .leftCard .buttons {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .topSection .cardSection .leftCard .buttons .btn {
+    width: 100%;
+  }
+  .topSection .cardSection .rightCard .main {
+    background: hsl(96, 75%, 89%);
+  }
+  .topSection .cardSection .rightCard .main .textDiv {
+    margin: auto;
+  }
+  .topSection .cardSection .rightCard .main .imageDiv {
+    display: none;
+  }
+}
+@media screen and (max-width: 390px) {
+  .topSection .cardSection .leftCard {
+    padding: 2rem 1rem;
+  }
+  .topSection .cardSection .leftCard h1 {
+    font-size: 1.25rem;
+  }
+}
+.listingSection {
+  flex-basis: 75%;
+}
+.listingSection .heading {
+  width: 100%;
+  justify-content: space-between;
+}
+.listingSection .heading h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.listingSection .heading .btn {
+  border: 1px solid transparent;
+}
+.listingSection .heading .btn:hover {
+  border: 1px solid hsl(94, 59%, 35%);
+}
+.listingSection .secContainer {
+  width: 100%;
+  margin: 1rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.listingSection .secContainer .singleItem {
+  width: 150px;
+  height: 200px;
+  padding: 1rem;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 0.5rem 0;
+  position: relative;
+  background-color: #dfe2df;
+}
+.listingSection .secContainer .singleItem:hover {
+  background: hsl(120, 27%, 87%);
+  box-shadow: 0 2px 2px #f8f6f7;
+}
+.listingSection .secContainer .singleItem .icon {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  color: #528e25;
+  z-index: 12;
+}
+.listingSection .secContainer .singleItem img {
+  max-width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+.listingSection .secContainer .singleItem h3 {
+  width: 80%;
+  font-size: 1rem;
+  text-align: center;
+  color: #1a1a1a;
+}
+.listingSection .sellers {
+  width: 100%;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 1rem;
+}
+.listingSection .sellers .topSellers,
+.listingSection .sellers .featuredSellers {
+  flex-direction: column;
+}
+.listingSection .sellers .topSellers .heading .btn,
+.listingSection .sellers .featuredSellers .heading .btn {
+  padding: 0.5rem 1rem;
+}
+.listingSection .sellers .topSellers .card,
+.listingSection .sellers .featuredSellers .card {
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  margin-top: 0.25rem;
+  gap: 1rem;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 4px #f8f6f7;
+}
+.listingSection .sellers .topSellers .card .users,
+.listingSection .sellers .featuredSellers .card .users {
+  padding-right: 1rem;
+  border-right: 2px solid rgb(190, 190, 190);
+}
+.listingSection .sellers .topSellers .card .users img,
+.listingSection .sellers .featuredSellers .card .users img {
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsl(330, 12%, 97%);
+  border-radius: 50%;
+  object-fit: cover;
+}
+.listingSection .sellers .topSellers .card .users img:hover,
+.listingSection .sellers .featuredSellers .card .users img:hover {
+  transition: 0.5s ease;
+  transform: translateY(-10px);
+}
+.listingSection .sellers .topSellers .card .cardText span,
+.listingSection .sellers .featuredSellers .card .cardText span {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+.listingSection .sellers .topSellers .card .cardText small,
+.listingSection .sellers .featuredSellers .card .cardText small {
+  font-weight: 400;
+}
+.listingSection .sellers .topSellers .card .cardText small .date,
+.listingSection .sellers .featuredSellers .card .cardText small .date {
+  margin-left: 1rem;
+}
+@media screen and (max-width: 990px) {
+  .listingSection {
+    flex-basis: 50%;
+  }
+  .listingSection .sellers .topSellers .heading .btn,
+  .listingSection .sellers .featuredSellers .heading .btn {
+    margin-left: 0;
+  }
+  .listingSection .sellers .topSellers .card,
+  .listingSection .sellers .featuredSellers .card {
+    padding: 1rem;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 918px) {
+  .listingSection {
+    width: 100%;
+  }
+  .listingSection .secContainer {
+    flex-wrap: nowrap;
+  }
+  .listingSection .secContainer .singleItem {
+    width: 180px;
+  }
+  .listingSection .sellers .topSellers,
+  .listingSection .sellers .featuredSellers {
+    width: 50%;
+  }
+  .listingSection .sellers .topSellers .heading,
+  .listingSection .sellers .featuredSellers .heading {
+    padding: 1rem 0;
+  }
+  .listingSection .sellers .topSellers .card,
+  .listingSection .sellers .featuredSellers .card {
+    width: 100%;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: space-between;
+  }
+  .listingSection .sellers .topSellers .card .cardText small .date,
+  .listingSection .sellers .featuredSellers .card .cardText small .date {
+    margin-left: 0.35rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .listingSection .secContainer,
+  .listingSection .sellers .topSellers .card,
+  .listingSection .sellers .featuredSellers .card {
+    flex-direction: column;
+  }
+  .listingSection .sellers .topSellers .card .cardText small .date,
+  .listingSection .sellers .featuredSellers .card .cardText small .date {
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 495px) {
+  .listingSection .heading h1 {
+    padding: 0.5rem 0;
+  }
+  .listingSection .sellers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .listingSection .sellers .topSellers,
+  .listingSection .sellers .featuredSellers {
+    width: 100%;
+  }
+  .listingSection .sellers .topSellers .heading h3,
+  .listingSection .sellers .featuredSellers .heading h3 {
+    padding: 0.5rem 0;
+  }
+  .listingSection .sellers .topSellers .card,
+  .listingSection .sellers .featuredSellers .card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .listingSection .sellers .topSellers .card .users,
+  .listingSection .sellers .topSellers .card .cardText,
+  .listingSection .sellers .featuredSellers .card .users,
+  .listingSection .sellers .featuredSellers .card .cardText {
+    width: 50%;
+  }
+  .listingSection .sellers .topSellers .card .users small .date,
+  .listingSection .sellers .topSellers .card .cardText small .date,
+  .listingSection .sellers .featuredSellers .card .users small .date,
+  .listingSection .sellers .featuredSellers .card .cardText small .date {
+    margin-left: 0.25rem;
+  }
+}
+.activitySection {
+  flex-basis: 25%;
+}
+.activitySection .heading {
+  width: 100%;
+  justify-content: space-between;
+}
+.activitySection .heading h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.activitySection .heading .btn {
+  border: 1px solid transparent;
+}
+.activitySection .heading .btn:hover {
+  border: 1px solid hsl(94, 59%, 35%);
+}
+.activitySection .secContainer {
+  margin-top: 1rem;
+}
+.activitySection .secContainer .singleCustomer {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.activitySection .secContainer .singleCustomer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
+  box-shadow: 0 2px 4px #dfe2df;
+}
+.activitySection .secContainer .singleCustomer .customerDetails {
+  flex: 1;
+}
+.activitySection .secContainer .singleCustomer .customerDetails .name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  display: block;
+}
+.activitySection .secContainer .singleCustomer .customerDetails small {
+  font-size: 0.813rem;
+  font-weight: 500;
+  color: #79797c;
+}
+.activitySection .secContainer .singleCustomer .duration {
+  align-self: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #79797c;
+}
+@media screen and (max-width: 990px) {
+  .activitySection {
+    flex-basis: 50%;
+  }
+}
+@media screen and (max-width: 918px) {
+  .activitySection {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .activitySection .heading h1 {
+    padding: 0.5rem 0;
+  }
+}

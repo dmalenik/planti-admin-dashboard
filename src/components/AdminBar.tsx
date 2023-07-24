@@ -1,26 +1,26 @@
-import type { Params, AdminBarProps } from '../shared/types';
+import type { Params, AdminBarProps } from "../shared/types";
 
 const AdminBar = (props: Params<AdminBarProps>): JSX.Element => {
   const { title, searchBar, adminDiv } = props.params;
 
   return (
-    <div className='headerSection flex'>
-      <div className='title'>
+    <div className="headerSection flex">
+      <div className="title">
         <h1>{title.heading}</h1>
         <p>{title.description}</p>
       </div>
-      <div className='searchBar flex'>
+      <div className="searchBar flex">
         <input
           type={searchBar.type}
           name={searchBar.name}
           id={searchBar.id}
-          placeholder='Search Dashboard'
+          placeholder="Search Dashboard"
         />
         {searchBar.icon}
       </div>
-      <div className='adminDiv flex'>
+      <div className="adminDiv flex">
         {adminDiv.icons.map((icon) => icon)}
-        <div className='adminImage'>
+        <div className="adminImage">
           <img src={adminDiv.img.src} alt={adminDiv.img.alt} />
         </div>
       </div>
