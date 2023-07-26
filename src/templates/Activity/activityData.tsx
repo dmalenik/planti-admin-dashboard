@@ -17,7 +17,7 @@ const activityData: ActivityProps = [
     {
       id: UIDArr[0],
       portrait: {
-        src: "/activitycards-sun_and_plants.webp",
+        src: "./activitycards-sun_and_plants.webp",
         alt: "Sun and Plants Customer Image",
       },
       details: {
@@ -29,7 +29,7 @@ const activityData: ActivityProps = [
     {
       id: UIDArr[1],
       portrait: {
-        src: "/activitycards-leaf.webp",
+        src: "./activitycards-leaf.webp",
         alt: "Some Customer Image",
       },
       details: {
@@ -41,7 +41,7 @@ const activityData: ActivityProps = [
     {
       id: UIDArr[2],
       portrait: {
-        src: "/activitycards-leaves.webp",
+        src: "./activitycards-leaves.webp",
         alt: "Some 2nd Customer Image",
       },
       details: {

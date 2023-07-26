@@ -25,7 +25,7 @@ const topData: TopProps = [
         <TbMessageCircle className="icon" key={UIDArr[0]} />,
         <IoMdNotificationsOutline className="icon" key={UIDArr[1]} />,
       ],
-      img: { src: "/adminbar-admin.webp", alt: "Admin Image" },
+      img: { src: "./adminbar-admin.webp", alt: "Admin Image" },
     },
   },
   {
@@ -39,8 +39,8 @@ const topData: TopProps = [
       action2: "Top Sellers",
     },
     video: {
-      src: "/rainyVideo_crop_720.mp4",
-      poster: "/rainyVideoPoster.webp",
+      src: "./rainyVideo_crop_720.mp4",
+      poster: "./rainyVideoPoster.webp",
     },
   },
   {
@@ -64,7 +64,7 @@ const topData: TopProps = [
       icon: <BsArrowRightShort className="icon" />,
     },
     img: {
-      src: "/rightcard-flower.webp",
+      src: "./rightcard-flower.webp",
       alt: "Flowers Image",
     },
   },

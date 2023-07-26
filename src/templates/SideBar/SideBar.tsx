@@ -8,7 +8,7 @@ const SideBar = (props: Data<SideBarProps>): JSX.Element => {
   return (
     <div className="sideBar grid">
       <div className="logoDiv flex">
-        <img src="/sidebar-logo.webp" alt="Image Name" />
+        <img src="./sidebar-logo.webp" alt="Image Name" />
         <h2>Planti.</h2>
       </div>
       <Menu params={quickMenu} />

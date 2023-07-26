@@ -23,14 +23,14 @@ const listingCards: ListingCardsProps[] = [
   {
     id: UIDArr[0],
     icon: <AiFillHeart className="icon" />,
-    img: { src: "/listingcards-annual_vince.webp", alt: "Annual Vince" },
+    img: { src: "./listingcards-annual_vince.webp", alt: "Annual Vince" },
     title: "Annual Vince",
   },
   {
     id: UIDArr[1],
     icon: <AiOutlineHeart className="icon" />,
     img: {
-      src: "/listingcards-palace_and_plants.webp",
+      src: "./listingcards-palace_and_plants.webp",
       alt: "Palace and Plants",
     },
     title: "Palace and Plants",
@@ -38,7 +38,7 @@ const listingCards: ListingCardsProps[] = [
   {
     id: UIDArr[2],
     icon: <AiFillHeart className="icon" />,
-    img: { src: "/listingcards-mountains_view.webp", alt: "Mountains View" },
+    img: { src: "./listingcards-mountains_view.webp", alt: "Mountains View" },
     title: "Mountains View",
   },
 ];
@@ -57,17 +57,17 @@ const topSellers: SellerProps<HeadingProps> = {
     users: [
       {
         id: UIDArr[8],
-        src: "/topsellers-waterfall.webp",
+        src: "./topsellers-waterfall.webp",
         alt: "Plants and Waterfall",
       },
       {
         id: UIDArr[9],
-        src: "/topsellers-mountains_and_flowers.webp",
+        src: "./topsellers-mountains_and_flowers.webp",
         alt: "Flowers and Mountains",
       },
       {
         id: UIDArr[10],
-        src: "/topsellers-flowers.webp",
+        src: "./topsellers-flowers.webp",
         alt: "Some Img 2",
       },
     ],
@@ -103,17 +103,17 @@ const featuredSellers: SellerProps<HeadingProps> = {
     users: [
       {
         id: UIDArr[4],
-        src: "/topsellers-waterfall.webp",
+        src: "./topsellers-waterfall.webp",
         alt: "Plants and Waterfall",
       },
       {
         id: UIDArr[5],
-        src: "/topsellers-mountains_and_flowers.webp",
+        src: "./topsellers-mountains_and_flowers.webp",
         alt: "Flowers and Mountains",
       },
       {
         id: UIDArr[6],
-        src: "/topsellers-flowers.webp",
+        src: "./topsellers-flowers.webp",
         alt: "Some Img 2",
       },
     ],
